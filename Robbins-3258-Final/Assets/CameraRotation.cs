@@ -6,6 +6,12 @@ public class CameraRotation : MonoBehaviour
 {
     [SerializeField] float _sensitivity = 5f;
     GameObject _player;
+    const string xAxis = "Mouse X";
+    const string yAxis = "Mouse Y";
+    [Range(0f, 90f)][SerializeField] float yRotationLimit = 88f;
+
+    Vector2 rotation = Vector2.zero;
+
     void Start()
     {
         _player = GameObject.FindGameObjectWithTag("Player");
@@ -20,10 +26,13 @@ public class CameraRotation : MonoBehaviour
 
     private void FixedUpdate()
     {
-        float rotateHorizontal = Input.GetAxis("Mouse X");
-        float rotateVertical = Input.GetAxis("Mouse Y");
-        
-        transform.RotateAround(_player.transform.position, -Vector3.up, rotateHorizontal * _sensitivity);
-        transform.RotateAround(Vector3.zero, transform.right, rotateVertical * _sensitivity);
+        rotation.x += Input.GetAxis(xAxis) * _sensitivity;
+        rotation.y += Input.GetAxis (yAxis) * _sensitivity;
+        rotation.y = Mathf.Clamp(rotation.y, -yRotationLimit, yRotationLimit);
+
+        var xQuat = Quaternion.AngleAxis(rotation.x, Vector3.up);
+        var yQuat = Quaternion.AngleAxis(rotation.y, Vector3.left);
+
+        transform.localRotation = xQuat * yQuat;
     }
 }
