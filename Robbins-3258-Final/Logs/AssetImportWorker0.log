@@ -2534,3 +2534,2045 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.281 seconds
+Refreshing native plugins compatible for Editor in 1.70 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.654 seconds
+Domain Reload Profiling: 934ms
+	BeginReloadAssembly (95ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (142ms)
+		LoadAssemblies (184ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (8ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (654ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (316ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (225ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3064 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3644.
+Memory consumption went from 113.7 MB to 113.6 MB.
+Total: 1.740600 ms (FindLiveObjects: 0.129000 ms CreateObjectMapping: 0.079700 ms MarkObjects: 1.500000 ms  DeleteObjects: 0.030600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.282 seconds
+Refreshing native plugins compatible for Editor in 1.73 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.587 seconds
+Domain Reload Profiling: 868ms
+	BeginReloadAssembly (95ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (144ms)
+		LoadAssemblies (185ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (8ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (588ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (307ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (219ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 2.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3064 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3647.
+Memory consumption went from 113.7 MB to 113.6 MB.
+Total: 1.753000 ms (FindLiveObjects: 0.136200 ms CreateObjectMapping: 0.057800 ms MarkObjects: 1.529800 ms  DeleteObjects: 0.028300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.283 seconds
+Refreshing native plugins compatible for Editor in 1.77 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.586 seconds
+Domain Reload Profiling: 868ms
+	BeginReloadAssembly (97ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (142ms)
+		LoadAssemblies (186ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (8ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (586ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (310ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (221ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3064 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3650.
+Memory consumption went from 113.7 MB to 113.6 MB.
+Total: 2.178600 ms (FindLiveObjects: 0.142400 ms CreateObjectMapping: 0.064200 ms MarkObjects: 1.923500 ms  DeleteObjects: 0.047500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.289 seconds
+Refreshing native plugins compatible for Editor in 1.76 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.592 seconds
+Domain Reload Profiling: 880ms
+	BeginReloadAssembly (99ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (145ms)
+		LoadAssemblies (187ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (8ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (593ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (318ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (227ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3064 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.6 KB). Loaded Objects now: 3653.
+Memory consumption went from 113.7 MB to 113.6 MB.
+Total: 1.836600 ms (FindLiveObjects: 0.151100 ms CreateObjectMapping: 0.063900 ms MarkObjects: 1.594500 ms  DeleteObjects: 0.026400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.300 seconds
+Refreshing native plugins compatible for Editor in 1.77 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.568 seconds
+Domain Reload Profiling: 867ms
+	BeginReloadAssembly (103ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (152ms)
+		LoadAssemblies (193ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (568ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (289ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (203ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3064 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3656.
+Memory consumption went from 113.7 MB to 113.6 MB.
+Total: 1.936900 ms (FindLiveObjects: 0.222600 ms CreateObjectMapping: 0.064700 ms MarkObjects: 1.620900 ms  DeleteObjects: 0.027800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.286 seconds
+Refreshing native plugins compatible for Editor in 1.64 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.577 seconds
+Domain Reload Profiling: 862ms
+	BeginReloadAssembly (94ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (146ms)
+		LoadAssemblies (182ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (578ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (294ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (206ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3064 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3659.
+Memory consumption went from 113.7 MB to 113.6 MB.
+Total: 1.649400 ms (FindLiveObjects: 0.129000 ms CreateObjectMapping: 0.055600 ms MarkObjects: 1.439800 ms  DeleteObjects: 0.024500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.280 seconds
+Refreshing native plugins compatible for Editor in 1.82 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.594 seconds
+Domain Reload Profiling: 873ms
+	BeginReloadAssembly (96ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (141ms)
+		LoadAssemblies (183ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (8ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (594ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (318ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (228ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3064 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3662.
+Memory consumption went from 113.7 MB to 113.6 MB.
+Total: 1.709300 ms (FindLiveObjects: 0.142500 ms CreateObjectMapping: 0.061300 ms MarkObjects: 1.476600 ms  DeleteObjects: 0.028100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.282 seconds
+Refreshing native plugins compatible for Editor in 1.56 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.546 seconds
+Domain Reload Profiling: 826ms
+	BeginReloadAssembly (95ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (138ms)
+		LoadAssemblies (173ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (546ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (283ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (59ms)
+			ProcessInitializeOnLoadAttributes (201ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3064 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3665.
+Memory consumption went from 113.7 MB to 113.6 MB.
+Total: 1.775000 ms (FindLiveObjects: 0.157000 ms CreateObjectMapping: 0.064100 ms MarkObjects: 1.523300 ms  DeleteObjects: 0.029700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.279 seconds
+Refreshing native plugins compatible for Editor in 1.95 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.581 seconds
+Domain Reload Profiling: 858ms
+	BeginReloadAssembly (95ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (136ms)
+		LoadAssemblies (177ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (581ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (311ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (223ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3064 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3668.
+Memory consumption went from 113.7 MB to 113.6 MB.
+Total: 1.879300 ms (FindLiveObjects: 0.139400 ms CreateObjectMapping: 0.060600 ms MarkObjects: 1.580400 ms  DeleteObjects: 0.098200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.284 seconds
+Refreshing native plugins compatible for Editor in 1.75 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.584 seconds
+Domain Reload Profiling: 866ms
+	BeginReloadAssembly (98ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (142ms)
+		LoadAssemblies (185ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (8ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (584ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (305ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (217ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3064 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3671.
+Memory consumption went from 113.7 MB to 113.6 MB.
+Total: 1.783200 ms (FindLiveObjects: 0.139800 ms CreateObjectMapping: 0.057600 ms MarkObjects: 1.557400 ms  DeleteObjects: 0.027800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1877.706925 seconds.
+  path: Assets/kenney_crosshair-pack
+  artifactKey: Guid(435f9981913613144bd53eab9064a1ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack using Guid(435f9981913613144bd53eab9064a1ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03102cde26a469ce387b1d64766fd429') in 0.017191 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.250074 seconds.
+  path: Assets/kenney_crosshair-pack/Preview.png
+  artifactKey: Guid(e240b550bd62b924fb58b6918d6201ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/Preview.png using Guid(e240b550bd62b924fb58b6918d6201ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a27251e109fc00aa20fbd086cfae870') in 0.128254 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.130507 seconds.
+  path: Assets/kenney_crosshair-pack/Tilesheet
+  artifactKey: Guid(1b98a8f31829a4541b2dbff1fc94435a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/Tilesheet using Guid(1b98a8f31829a4541b2dbff1fc94435a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '956e0bc3ce8a36bd73eeeb5bba7785b4') in 0.000418 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.138106 seconds.
+  path: Assets/kenney_crosshair-pack/PNG
+  artifactKey: Guid(e7f5dad5b6eb9074d86c9a2db1068305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG using Guid(e7f5dad5b6eb9074d86c9a2db1068305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b679bf0059a19114e64ad0dc12bd2cd2') in 0.000350 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.350554 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Black Retina
+  artifactKey: Guid(4fa95c20b8693f142ab02ef75c7019be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Black Retina using Guid(4fa95c20b8693f142ab02ef75c7019be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '871234c69f4333b1078f6f50cc7f5245') in 0.000394 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.088361 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Black Retina/crosshair001.png
+  artifactKey: Guid(5ff686fb453b40a4e86a9adb7ed7faa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Black Retina/crosshair001.png using Guid(5ff686fb453b40a4e86a9adb7ed7faa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7cb06ba449882305b94b17663ec3754') in 0.038545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Black Retina/crosshair054.png
+  artifactKey: Guid(1753e1326ca1c184f85ffdc7869846f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Black Retina/crosshair054.png using Guid(1753e1326ca1c184f85ffdc7869846f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6650d019feb6e032914775947a04a92a') in 0.080589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Black Retina/crosshair020.png
+  artifactKey: Guid(14fd596d76113d24bae31fec2c1c9897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Black Retina/crosshair020.png using Guid(14fd596d76113d24bae31fec2c1c9897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '596d313ce246a756212f1e7e3f8356b3') in 0.017974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Black Retina/crosshair035.png
+  artifactKey: Guid(af4644fa4fb62504ea359742795eb08c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Black Retina/crosshair035.png using Guid(af4644fa4fb62504ea359742795eb08c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5af2640296ce956f5a506cf1e0770387') in 0.023310 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Black Retina/crosshair061.png
+  artifactKey: Guid(165cbfeba4a73ac499b309b05d4da733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Black Retina/crosshair061.png using Guid(165cbfeba4a73ac499b309b05d4da733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58d6b49396daa28eda4b4ece0a99b890') in 0.013115 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Black Retina/crosshair031.png
+  artifactKey: Guid(4f7b8252b1529b74192e9a1933faf5ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Black Retina/crosshair031.png using Guid(4f7b8252b1529b74192e9a1933faf5ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '613447a1a469c57076dd84e406fd0d39') in 0.012399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Black Retina/crosshair040.png
+  artifactKey: Guid(9763ad1c80c96cf4f803d71a10bc66b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Black Retina/crosshair040.png using Guid(9763ad1c80c96cf4f803d71a10bc66b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a7a494f96ca5e344505dad8c855cd10') in 0.022965 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Black Retina/crosshair023.png
+  artifactKey: Guid(83788f6d08f95264b90a554a2f6b54a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Black Retina/crosshair023.png using Guid(83788f6d08f95264b90a554a2f6b54a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80993838ee1f9a97af19eb00e4b884b6') in 0.019177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Black Retina/crosshair025.png
+  artifactKey: Guid(400d950810f8b7c4aa8ea43c4e925240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Black Retina/crosshair025.png using Guid(400d950810f8b7c4aa8ea43c4e925240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9887191f2f92e9846afc38a01e622d86') in 0.013740 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Black Retina/crosshair042.png
+  artifactKey: Guid(dc7b30e700df2314180005f3078f95f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Black Retina/crosshair042.png using Guid(dc7b30e700df2314180005f3078f95f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2676839d632cee6ca4f442ac1cb764fa') in 0.013357 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Black Retina/crosshair026.png
+  artifactKey: Guid(1886c41d120517740a4816835ba94776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Black Retina/crosshair026.png using Guid(1886c41d120517740a4816835ba94776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f25063714183c4176f8cbc3391b31055') in 0.022163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Black Retina/crosshair012.png
+  artifactKey: Guid(ed2fa89346c05314e8439649a9e2da3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Black Retina/crosshair012.png using Guid(ed2fa89346c05314e8439649a9e2da3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05ee34aa06878485a6b0de2e4d5bfe53') in 0.024413 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Black Retina/crosshair037.png
+  artifactKey: Guid(3cd87e9987b748f40a820d1f951df39f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Black Retina/crosshair037.png using Guid(3cd87e9987b748f40a820d1f951df39f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee6c59294623eac37df42b73f731a476') in 0.018514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Black Retina/crosshair017.png
+  artifactKey: Guid(be162f1501624ae47b54c7f3c6aa1ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Black Retina/crosshair017.png using Guid(be162f1501624ae47b54c7f3c6aa1ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b01824bd6f41bdec363a5460405b039e') in 0.022615 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Black Retina/crosshair044.png
+  artifactKey: Guid(d3857cda843edcb4dbf37b1c89437b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Black Retina/crosshair044.png using Guid(d3857cda843edcb4dbf37b1c89437b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e1b7be215c7b3a094291f37272b1396') in 0.030568 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Black Retina/crosshair006.png
+  artifactKey: Guid(eb1d3234227db2e4391230c603816a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Black Retina/crosshair006.png using Guid(eb1d3234227db2e4391230c603816a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ae85eb9aaf9053902b086fe8b753abe') in 0.019908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Black Retina/crosshair022.png
+  artifactKey: Guid(af53a264345e69943909a308afd249b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Black Retina/crosshair022.png using Guid(af53a264345e69943909a308afd249b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8541d03ea8879bbafa79beb8c44998a') in 0.027128 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Black Retina/crosshair030.png
+  artifactKey: Guid(1a67ef3f0fc0e014d8425c1bd3a5755a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Black Retina/crosshair030.png using Guid(1a67ef3f0fc0e014d8425c1bd3a5755a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1756a19fa1d6f62790941b16be31b586') in 0.023482 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Black Retina/crosshair019.png
+  artifactKey: Guid(181b12648565c10449f9d6d019b1320f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Black Retina/crosshair019.png using Guid(181b12648565c10449f9d6d019b1320f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0ab92a063b26f5f96dd2f67292a81a5') in 0.027732 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Black Retina/crosshair013.png
+  artifactKey: Guid(8d033db363f5ba048b9eb3f4c266e391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Black Retina/crosshair013.png using Guid(8d033db363f5ba048b9eb3f4c266e391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bd9e36bc4211853e1f7f217e1cb6220') in 0.020942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Black Retina/crosshair010.png
+  artifactKey: Guid(aab7a162b3780354084761ca70d9a9d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Black Retina/crosshair010.png using Guid(aab7a162b3780354084761ca70d9a9d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cc7c93239751c91856edc8860989b7d') in 0.016510 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Black Retina/crosshair057.png
+  artifactKey: Guid(13fe0f07410208648b298c539c1730a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Black Retina/crosshair057.png using Guid(13fe0f07410208648b298c539c1730a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eee74f3202a19b87bb854ba34e3388dc') in 0.020671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Black Retina/crosshair049.png
+  artifactKey: Guid(4bdd93a04b4d72a41aeb15da037f26ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Black Retina/crosshair049.png using Guid(4bdd93a04b4d72a41aeb15da037f26ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fdec7fa2fd931d379271a7d01dc54aa') in 0.014198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Black Retina/crosshair008.png
+  artifactKey: Guid(8581a6502ea879141908a3109af3effa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Black Retina/crosshair008.png using Guid(8581a6502ea879141908a3109af3effa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87020d2b89ae4414e0e32dcce0f8de4a') in 0.025570 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Black Retina/crosshair038.png
+  artifactKey: Guid(7065ca2fd18fca343a4d01431acb7430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Black Retina/crosshair038.png using Guid(7065ca2fd18fca343a4d01431acb7430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '164dc2bd4c0f091a54f295e8379138ac') in 0.046009 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Black Retina/crosshair048.png
+  artifactKey: Guid(6908096dc3c3f8d45b6e6c762c29b16b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Black Retina/crosshair048.png using Guid(6908096dc3c3f8d45b6e6c762c29b16b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cecfa3cedaccc6fd6f19348a0802d82f') in 0.015342 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Black Retina/crosshair015.png
+  artifactKey: Guid(fcd3b2fc8f888c2409a87c17690b6f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Black Retina/crosshair015.png using Guid(fcd3b2fc8f888c2409a87c17690b6f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9350cc4196b2267ecd3074ad52a105af') in 0.017329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Black Retina/crosshair028.png
+  artifactKey: Guid(a8915253d45792c47bcf6662c82c86ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Black Retina/crosshair028.png using Guid(a8915253d45792c47bcf6662c82c86ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '279a54da8bfb53285c27419705ceebf7') in 0.018952 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Black Retina/crosshair011.png
+  artifactKey: Guid(a3895c74831a21443a9c07aca3b60a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Black Retina/crosshair011.png using Guid(a3895c74831a21443a9c07aca3b60a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9afd835cd4890fab443c79d06e1fd5f') in 0.014855 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Black Retina/crosshair034.png
+  artifactKey: Guid(4071b4c3b869a334db07fa2d3d30ea21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Black Retina/crosshair034.png using Guid(4071b4c3b869a334db07fa2d3d30ea21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c62974d421c1615569aaa95a4b37792') in 0.027732 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Black Retina/crosshair058.png
+  artifactKey: Guid(8f76ff37dd6b8414a8ea4508f31b7807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Black Retina/crosshair058.png using Guid(8f76ff37dd6b8414a8ea4508f31b7807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abffafd209c821856354e428634cd1ac') in 0.013426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Black Retina/crosshair039.png
+  artifactKey: Guid(4cb15f768272775468443b786b4ed518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Black Retina/crosshair039.png using Guid(4cb15f768272775468443b786b4ed518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3be5c6b597093859edd4298fc00fb727') in 0.016863 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.287365 seconds.
+  path: Assets/kenney_crosshair-pack/Vector
+  artifactKey: Guid(5606d68a8a1d4ca4781b4b44826f0f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/Vector using Guid(5606d68a8a1d4ca4781b4b44826f0f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67c8607f3fb6a72bf4bc97a34dd48899') in 0.000430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.214352 seconds.
+  path: Assets/kenney_crosshair-pack/Vector/crosshairs_vector.swf
+  artifactKey: Guid(cf151363dae9913438d5abb9eb4f1480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/Vector/crosshairs_vector.swf using Guid(cf151363dae9913438d5abb9eb4f1480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c34f70dccfc0f9fb546d7c4f17334925') in 0.000697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 3.532795 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Outline/crosshair003.png
+  artifactKey: Guid(9685148d855d6a345bd770907e35c737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Outline/crosshair003.png using Guid(9685148d855d6a345bd770907e35c737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '172385a2b2019e283bb5fb1fdd78f0a9') in 0.017770 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Outline/crosshair030.png
+  artifactKey: Guid(93e942075445ced4bab595b023397a5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Outline/crosshair030.png using Guid(93e942075445ced4bab595b023397a5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5deefa33868238858010a577e834f693') in 0.013832 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Outline/crosshair007.png
+  artifactKey: Guid(bd775d7bf2c11094684283f2ee6a8f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Outline/crosshair007.png using Guid(bd775d7bf2c11094684283f2ee6a8f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46fb07bce0d64d7abbb430b974bf396f') in 0.021236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Outline/crosshair045.png
+  artifactKey: Guid(72c8968063805b34fb6da80f78007f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Outline/crosshair045.png using Guid(72c8968063805b34fb6da80f78007f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32d3b5b0529988be07638d1323f61613') in 0.015213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Outline/crosshair053.png
+  artifactKey: Guid(bdeb8aaa6398fc846bb4bb6f6d4b4188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Outline/crosshair053.png using Guid(bdeb8aaa6398fc846bb4bb6f6d4b4188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a959da3ef9bf4c9fb54d98064495a6bf') in 0.019479 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Outline/crosshair009.png
+  artifactKey: Guid(53bee75d5493c044d93fe4ba66ecaab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Outline/crosshair009.png using Guid(53bee75d5493c044d93fe4ba66ecaab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd285a4b33835867fee98503dfd1433e1') in 0.022378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Outline/crosshair042.png
+  artifactKey: Guid(ec6f90fc481bd6b44bbd6ceacc5b9a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Outline/crosshair042.png using Guid(ec6f90fc481bd6b44bbd6ceacc5b9a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '794c6c44cd50b30c9c8677cc699d831d') in 0.013289 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Outline/crosshair025.png
+  artifactKey: Guid(d08238ae5520d6b4886c66c3ea018766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Outline/crosshair025.png using Guid(d08238ae5520d6b4886c66c3ea018766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a06cd87d479b5d614dcb6bea08a0a744') in 0.028439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Outline/crosshair020.png
+  artifactKey: Guid(de713ecb3eb494d45a4477ced1984043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Outline/crosshair020.png using Guid(de713ecb3eb494d45a4477ced1984043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '278f041f45eda35be803c156a18d87a7') in 0.017406 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Outline/crosshair039.png
+  artifactKey: Guid(806e7a6e7bf12ac4ea9cdb7f4053d5bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Outline/crosshair039.png using Guid(806e7a6e7bf12ac4ea9cdb7f4053d5bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff318a06bc4a1ea693f2323fdab73e1f') in 0.025149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Outline/crosshair019.png
+  artifactKey: Guid(bef4d1f22612f0b40962e591c230464a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Outline/crosshair019.png using Guid(bef4d1f22612f0b40962e591c230464a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2300c79527b8b058e3eb57f9a7402d13') in 0.031873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Outline/crosshair034.png
+  artifactKey: Guid(c970e43defbf5ec4bb689e23bb4358db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Outline/crosshair034.png using Guid(c970e43defbf5ec4bb689e23bb4358db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ed22738c27d3de8b69f782147418497') in 0.030078 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Outline/crosshair056.png
+  artifactKey: Guid(e975148f8a842c14180f4415d4772f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Outline/crosshair056.png using Guid(e975148f8a842c14180f4415d4772f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '747e16d20df4642c0e1f2f4753eeeac8') in 0.024581 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.715008 seconds.
+  path: Assets/kenney_crosshair-pack/Tilesheet/crosshairs_tilesheet_white.png
+  artifactKey: Guid(8c30f74a57f0a8644b4fd1d2916b27d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/Tilesheet/crosshairs_tilesheet_white.png using Guid(8c30f74a57f0a8644b4fd1d2916b27d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99999d9a9cf68cd89fbdbc9ce25d3a83') in 0.020572 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.687462 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Outline Retina/crosshair003.png
+  artifactKey: Guid(b2be48508ec565f439f9df5cccd92e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Outline Retina/crosshair003.png using Guid(b2be48508ec565f439f9df5cccd92e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1409e830702aa1ee452e8f17952ef44a') in 0.019875 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Outline Retina/crosshair025.png
+  artifactKey: Guid(ba9cbabe495197a409b5b1d5a8f056b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Outline Retina/crosshair025.png using Guid(ba9cbabe495197a409b5b1d5a8f056b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46ed550f998495259af25fdb03f29809') in 0.022448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Outline Retina/crosshair059.png
+  artifactKey: Guid(324a2c3eea3c04c4498e298eae90a491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Outline Retina/crosshair059.png using Guid(324a2c3eea3c04c4498e298eae90a491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '648de17d52359c95db8a5fa5b2b8ae4d') in 0.035170 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Outline Retina/crosshair042.png
+  artifactKey: Guid(ea21abdbe5718c940bbc226d9e2c7afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Outline Retina/crosshair042.png using Guid(ea21abdbe5718c940bbc226d9e2c7afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8524f7dc6612853963ee7256f078ba0') in 0.017085 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Outline Retina/crosshair045.png
+  artifactKey: Guid(c763980e97c28004aa5a09201a14184b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Outline Retina/crosshair045.png using Guid(c763980e97c28004aa5a09201a14184b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '961033b18d5a64b04f9fee53738ab6a4') in 0.018740 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Outline Retina/crosshair044.png
+  artifactKey: Guid(445691340bae73244822339b8f7d54f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Outline Retina/crosshair044.png using Guid(445691340bae73244822339b8f7d54f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36b12ef604506a8e31e36f6d182fa1d6') in 0.016923 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Outline Retina/crosshair015.png
+  artifactKey: Guid(8a767c2c108769741901b01cf4d39c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Outline Retina/crosshair015.png using Guid(8a767c2c108769741901b01cf4d39c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cefa7fc76866e6d7861057d32920cd91') in 0.018822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Outline Retina/crosshair043.png
+  artifactKey: Guid(13a10b28ce3bf134cb505426f9bf779b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Outline Retina/crosshair043.png using Guid(13a10b28ce3bf134cb505426f9bf779b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f38a229fdd88dc99c9d5959bb5a9feec') in 0.035413 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Outline Retina/crosshair037.png
+  artifactKey: Guid(8a67f5c37439e6149a01c53b1423d999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Outline Retina/crosshair037.png using Guid(8a67f5c37439e6149a01c53b1423d999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50919d119dd29c5567678ffc6de00d28') in 0.024465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Outline Retina/crosshair026.png
+  artifactKey: Guid(b002dd90d01cb5741a6c5f90b34735fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Outline Retina/crosshair026.png using Guid(b002dd90d01cb5741a6c5f90b34735fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fb99c7fc72aba4b26d76292fd405e10') in 0.016219 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Outline Retina/crosshair018.png
+  artifactKey: Guid(5de7c352092f02844956b416e77bd820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Outline Retina/crosshair018.png using Guid(5de7c352092f02844956b416e77bd820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2760b2d1b625fcedc100ac668978bc44') in 0.015564 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Outline Retina/crosshair038.png
+  artifactKey: Guid(7fd66caf6161ce14da012f82a8ec1cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Outline Retina/crosshair038.png using Guid(7fd66caf6161ce14da012f82a8ec1cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3ee232fd954b0a251fec9f1a828a4a7') in 0.020285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Outline Retina/crosshair027.png
+  artifactKey: Guid(6eb573cda48c3fc4b88dd445c5ccfc53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Outline Retina/crosshair027.png using Guid(6eb573cda48c3fc4b88dd445c5ccfc53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7a3fa7a780c113992d1afc3d45c0bd4') in 0.019774 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.754656 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/White/crosshair003.png
+  artifactKey: Guid(79d0f90de08800a4594049769687a93c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/White/crosshair003.png using Guid(79d0f90de08800a4594049769687a93c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0baead49bc95ab77ff7c4d529baca303') in 0.035803 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/White/crosshair040.png
+  artifactKey: Guid(e8994fc4b8d08104c8e4a858af136fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/White/crosshair040.png using Guid(e8994fc4b8d08104c8e4a858af136fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7b8f786b742642391dac9140d1b5782') in 0.025258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/White/crosshair045.png
+  artifactKey: Guid(54731b1031e520a43a333d82156f7f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/White/crosshair045.png using Guid(54731b1031e520a43a333d82156f7f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c472ace6cb962010d4076924ac83f1e') in 0.020561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/White/crosshair029.png
+  artifactKey: Guid(5291c926657b4f74da35fda21a20c328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/White/crosshair029.png using Guid(5291c926657b4f74da35fda21a20c328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11b2fbc4abac734231dde51c26df86b2') in 0.026420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/White/crosshair025.png
+  artifactKey: Guid(a4e272be85d04d343b97a19ea45753f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/White/crosshair025.png using Guid(a4e272be85d04d343b97a19ea45753f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98e60ccf2afb6e0fe74bb9cbf0b25c0b') in 0.027863 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/White/crosshair030.png
+  artifactKey: Guid(c07fd390b0735424e8c10d99b8018f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/White/crosshair030.png using Guid(c07fd390b0735424e8c10d99b8018f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c5531632a90ff0334cb4103c4076508') in 0.025547 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/White/crosshair020.png
+  artifactKey: Guid(d23595c29a1fc1e458ea78ce004238bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/White/crosshair020.png using Guid(d23595c29a1fc1e458ea78ce004238bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '007136a34c25239cd894dfd9e0f8157a') in 0.025118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/White/crosshair048.png
+  artifactKey: Guid(b287abdaf07f16142bfde20415eb122d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/White/crosshair048.png using Guid(b287abdaf07f16142bfde20415eb122d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ee4f122583397b13bd6cc11d003970f') in 0.022929 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/White/crosshair015.png
+  artifactKey: Guid(75b3f2d1c07afcc4f9f3c7d247f88af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/White/crosshair015.png using Guid(75b3f2d1c07afcc4f9f3c7d247f88af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8149e34c288face5582abc44758fbf99') in 0.016042 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/White/crosshair012.png
+  artifactKey: Guid(5c18ddce295bac54e9f3b3b377c12531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/White/crosshair012.png using Guid(5c18ddce295bac54e9f3b3b377c12531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf14850bc1d9eb6439c9e9904a5c7671') in 0.027872 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/White/crosshair056.png
+  artifactKey: Guid(92bdc3d105a1ce24dbe64b6e1703e4f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/White/crosshair056.png using Guid(92bdc3d105a1ce24dbe64b6e1703e4f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e52feefc0c7cfb2f01563365c22437e') in 0.014904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 67.706524 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Black
+  artifactKey: Guid(6209ebb87c3d1654287493ae3bb0286e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Black using Guid(6209ebb87c3d1654287493ae3bb0286e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '590824c1cc40c62b4aa833c05dd037cb') in 0.000539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.079872 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Black/crosshair001.png
+  artifactKey: Guid(011f1ed61e25a1446a978241427ab398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Black/crosshair001.png using Guid(011f1ed61e25a1446a978241427ab398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faae03eccd9bb15bed63d552bb038827') in 0.054360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Black/crosshair026.png
+  artifactKey: Guid(f2eafd5959854d140b9701a696642f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Black/crosshair026.png using Guid(f2eafd5959854d140b9701a696642f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c5fabf42dd03eb7b01e7ae207bcca91') in 0.024205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Black/crosshair046.png
+  artifactKey: Guid(a5b18fe9901303e48ab4b25b20fb3f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Black/crosshair046.png using Guid(a5b18fe9901303e48ab4b25b20fb3f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec9a7f95abeb8876b66a8d1df9cfc069') in 0.019700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Black/crosshair038.png
+  artifactKey: Guid(ccb62b087e54e7b4896e2e92923e97d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Black/crosshair038.png using Guid(ccb62b087e54e7b4896e2e92923e97d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d9347aa1194e84a97a4dd97d712db21') in 0.032798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Black/crosshair060.png
+  artifactKey: Guid(02567f7019c4a1647bf826f4310a1490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Black/crosshair060.png using Guid(02567f7019c4a1647bf826f4310a1490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6184a20c068521293aa8a64b3474f980') in 0.014237 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Black/crosshair029.png
+  artifactKey: Guid(e77e356304490ef4195121e973e49775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Black/crosshair029.png using Guid(e77e356304490ef4195121e973e49775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c52278e2219ead7b64195ace9d4fb25a') in 0.013780 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Black/crosshair052.png
+  artifactKey: Guid(efb4915ef511a474fbb2f08056a3fb2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Black/crosshair052.png using Guid(efb4915ef511a474fbb2f08056a3fb2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '058c3062901df838c00e04b0f554a5c2') in 0.020704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Black/crosshair042.png
+  artifactKey: Guid(46c671dd5c3e7af47a854ef41b92944b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Black/crosshair042.png using Guid(46c671dd5c3e7af47a854ef41b92944b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73c376a70b49d7eb6b34e2744bcbca8d') in 0.020193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Black/crosshair043.png
+  artifactKey: Guid(4f20efd1274434140b37c1c6f79cafec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Black/crosshair043.png using Guid(4f20efd1274434140b37c1c6f79cafec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b1231b17191089f8dc26e0965f60bec') in 0.019197 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Black/crosshair036.png
+  artifactKey: Guid(ec366261a42528242b8c43adece2ff0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Black/crosshair036.png using Guid(ec366261a42528242b8c43adece2ff0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '703a3ba3c9f2c3a22274ebaf21f27032') in 0.027584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Black/crosshair045.png
+  artifactKey: Guid(0e75df0b2e7f4aa4990a32bd3a1a1d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Black/crosshair045.png using Guid(0e75df0b2e7f4aa4990a32bd3a1a1d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9c9447e854a219d74d3e804b51f78b1') in 0.015651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Black/crosshair032.png
+  artifactKey: Guid(11a2a58f9e621834c827230a2d632a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Black/crosshair032.png using Guid(11a2a58f9e621834c827230a2d632a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39cd35acb2e2a5e7eb555e5637c64327') in 0.023752 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Black/crosshair055.png
+  artifactKey: Guid(af8cadcc38ba0b64e904f4f215db5719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Black/crosshair055.png using Guid(af8cadcc38ba0b64e904f4f215db5719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a050a37fb0b927c2bc97a7001ba9f2c1') in 0.025655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Black/crosshair024.png
+  artifactKey: Guid(84f7cf0a47f6ac94587f033901b9fa87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Black/crosshair024.png using Guid(84f7cf0a47f6ac94587f033901b9fa87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2365e38ece0cd8faba5ced055f29fa5') in 0.018709 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Black/crosshair047.png
+  artifactKey: Guid(c7db9cea94053b446853d615f4c2a0fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Black/crosshair047.png using Guid(c7db9cea94053b446853d615f4c2a0fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a71ccad36bdb9cac13bba8520437bb39') in 0.019153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Black/crosshair056.png
+  artifactKey: Guid(fc157d2e3ec316841afa4c66b7f94a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Black/crosshair056.png using Guid(fc157d2e3ec316841afa4c66b7f94a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84076d4c1fc444ba1e64ebfa997c0877') in 0.012827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Black/crosshair040.png
+  artifactKey: Guid(4f831438841ceca449f47918e68ca93f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Black/crosshair040.png using Guid(4f831438841ceca449f47918e68ca93f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23cc74ef4368e7e33b71b8376ef00a9d') in 0.014458 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Black/crosshair059.png
+  artifactKey: Guid(3b1db4605e7f59244951b157e40bb856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Black/crosshair059.png using Guid(3b1db4605e7f59244951b157e40bb856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab4874ff0389931ec0f8e9819df49aa3') in 0.042180 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Black/crosshair013.png
+  artifactKey: Guid(461492609b1c31d4998cdae930b8129e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Black/crosshair013.png using Guid(461492609b1c31d4998cdae930b8129e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12bea8ade90fead99054189f766d16e1') in 0.039936 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/Black/crosshair057.png
+  artifactKey: Guid(1c58bbd56231007448c4dc91f3009b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/Black/crosshair057.png using Guid(1c58bbd56231007448c4dc91f3009b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a7ef6c868d20b0c8f20c8b1aef9d2cc') in 0.022335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 7.648137 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/White/crosshair062.png
+  artifactKey: Guid(d53cc98dcc2efaa41b1447bfd3918878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/White/crosshair062.png using Guid(d53cc98dcc2efaa41b1447bfd3918878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2e7a41468a0c8dc76a31d0fcc85cbe6') in 0.022002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/White/crosshair075.png
+  artifactKey: Guid(0fdbe22368141384aba19b1f6a362c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/White/crosshair075.png using Guid(0fdbe22368141384aba19b1f6a362c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bff552bfc2fb7e50451465c94e678910') in 0.018090 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/White/crosshair072.png
+  artifactKey: Guid(4d563a26219558d45a20ef5a19aad2ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/White/crosshair072.png using Guid(4d563a26219558d45a20ef5a19aad2ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f68d5c1d21197c2c5377701907bf31c') in 0.029213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.429624 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/White/crosshair077.png
+  artifactKey: Guid(981328ed0c47d9f44a44812de292c464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/White/crosshair077.png using Guid(981328ed0c47d9f44a44812de292c464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '516a7a778c0424e0c3d3adb7cb6597ea') in 0.014787 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/White/crosshair090.png
+  artifactKey: Guid(05826a64709ca9c4d9d97e0700a8219b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/White/crosshair090.png using Guid(05826a64709ca9c4d9d97e0700a8219b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15b9c48a0a822ee6eb57bc2969c3825e') in 0.026500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/White/crosshair089.png
+  artifactKey: Guid(accb3597bf038ad42bcaa5cab51a5b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/White/crosshair089.png using Guid(accb3597bf038ad42bcaa5cab51a5b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc690c5a3fbbfee9772b6fcf59e7517b') in 0.013860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.363281 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/White/crosshair092.png
+  artifactKey: Guid(c764758e0b3c0bb4facabbd57912f0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/White/crosshair092.png using Guid(c764758e0b3c0bb4facabbd57912f0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a895a5c5984e651cbb9aa736efce40c') in 0.017666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/White/crosshair104.png
+  artifactKey: Guid(961f2265800b814479271d8d95ffa540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/White/crosshair104.png using Guid(961f2265800b814479271d8d95ffa540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c24a784546c62943317e5f6069e361de') in 0.021178 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/White/crosshair099.png
+  artifactKey: Guid(0fcef8fde3e07aa4b91bc7c8f0b405a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/White/crosshair099.png using Guid(0fcef8fde3e07aa4b91bc7c8f0b405a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c1a99ebee4922d230b8c264a3b505b6') in 0.018489 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.283793 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/White/crosshair107.png
+  artifactKey: Guid(b948a478b6c056d448d5d39f24f03bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/White/crosshair107.png using Guid(b948a478b6c056d448d5d39f24f03bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e2ced013d3f68ef467b270f39e69e95') in 0.013796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/White/crosshair117.png
+  artifactKey: Guid(4467043d878a505419e0858741bc030c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/White/crosshair117.png using Guid(4467043d878a505419e0858741bc030c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '026ba72670db82c11a9d8167fc5435e2') in 0.016334 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/White/crosshair121.png
+  artifactKey: Guid(d2164c3dbfdd3d546ad379e9ad184754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/White/crosshair121.png using Guid(d2164c3dbfdd3d546ad379e9ad184754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '065e57d3fca344a9d9e64e41b40383e9') in 0.020537 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/White/crosshair115.png
+  artifactKey: Guid(1f5f23831107a5a44a814bc0d976fe4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/White/crosshair115.png using Guid(1f5f23831107a5a44a814bc0d976fe4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edab7d5cb91f1a6795fe6950e864eeb3') in 0.023782 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/White/crosshair122.png
+  artifactKey: Guid(92be790e529bc3240a4c72cdaf4bba04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/White/crosshair122.png using Guid(92be790e529bc3240a4c72cdaf4bba04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77d3b0e196dea0cd576b8ecfc78441d9') in 0.017950 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/White/crosshair130.png
+  artifactKey: Guid(2b76163707d228449a4e96b70808c88b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/White/crosshair130.png using Guid(2b76163707d228449a4e96b70808c88b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d6ce9a0c4f3061454ee894848c66610') in 0.026589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/White/crosshair136.png
+  artifactKey: Guid(a53df8f11adf0b24ea1a3908aa5a75d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/White/crosshair136.png using Guid(a53df8f11adf0b24ea1a3908aa5a75d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be086e5f42412a7c18ecdb37828d4f66') in 0.014717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.442458 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/White/crosshair137.png
+  artifactKey: Guid(e7200599c6eca254289314b68a0af3cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/White/crosshair137.png using Guid(e7200599c6eca254289314b68a0af3cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9676c78de200494e9839358778a9c23') in 0.023973 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/White/crosshair144.png
+  artifactKey: Guid(e82414c1430dec84ca7893ac6cfbbbb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/White/crosshair144.png using Guid(e82414c1430dec84ca7893ac6cfbbbb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '978f255803dacde3e15e2ce99e7b6b61') in 0.018035 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/White/crosshair150.png
+  artifactKey: Guid(ae754e885b02c8348b6da1884c2f52f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/White/crosshair150.png using Guid(ae754e885b02c8348b6da1884c2f52f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b952a1fb91a448890693723aabf50230') in 0.026624 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/White/crosshair142.png
+  artifactKey: Guid(da8cc4fd641aea944a3c5df53a97d52d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/White/crosshair142.png using Guid(da8cc4fd641aea944a3c5df53a97d52d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '187d04b655bd1a732ae38e81f6bb4282') in 0.014704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.206908 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/White/crosshair152.png
+  artifactKey: Guid(4c75899644cb8054c8604830bdfa16b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/White/crosshair152.png using Guid(4c75899644cb8054c8604830bdfa16b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad2bdba8f7bbb565af3b9014dc036a4e') in 0.025252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/White/crosshair157.png
+  artifactKey: Guid(74c3f7d091462d144a50105607771e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/White/crosshair157.png using Guid(74c3f7d091462d144a50105607771e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd80d19398015a0d9334e528dece55acc') in 0.018119 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/White/crosshair166.png
+  artifactKey: Guid(ee6623ada365fab489b9abc6a2495b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/White/crosshair166.png using Guid(ee6623ada365fab489b9abc6a2495b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d7bfb294877044f80c498b725bb1db9') in 0.025781 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003564 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/White/crosshair167.png
+  artifactKey: Guid(57146426eec908f4c96205cfaa601983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/White/crosshair167.png using Guid(57146426eec908f4c96205cfaa601983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d7c5d257b333ffc17189655a75bc4aa') in 0.036222 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/White/crosshair172.png
+  artifactKey: Guid(a380dae5a4b2e4343bbd795e81e6e1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/White/crosshair172.png using Guid(a380dae5a4b2e4343bbd795e81e6e1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d28a573a35288dec0f3db0b9f443263') in 0.018062 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/White/crosshair186.png
+  artifactKey: Guid(0a00530828538964dac13aca40c47527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/White/crosshair186.png using Guid(0a00530828538964dac13aca40c47527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5b26fc63509b0ed78b2b9f19d79ba54') in 0.030414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/White/crosshair191.png
+  artifactKey: Guid(83d2277aae1717b44ba7061489fed538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/White/crosshair191.png using Guid(83d2277aae1717b44ba7061489fed538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1347aa4b71e5aa7e50a05811f42ee3de') in 0.032525 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/White/crosshair174.png
+  artifactKey: Guid(a32da1b4cbb462944b3cfb88165c03dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/White/crosshair174.png using Guid(a32da1b4cbb462944b3cfb88165c03dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '982136fa714dc61a11265bd38a7984f0') in 0.015237 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/White/crosshair183.png
+  artifactKey: Guid(4bef534291de6a147974465116dbf0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/White/crosshair183.png using Guid(4bef534291de6a147974465116dbf0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '227157e9e3ad32055436b6d5ea33606d') in 0.014446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.070237 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/White/crosshair197.png
+  artifactKey: Guid(a6ff79cd0bf52734b88a73581d3765ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/White/crosshair197.png using Guid(a6ff79cd0bf52734b88a73581d3765ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bde2ff09aa5272413cae2e7bcbdc0b6') in 0.024301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 106.357897 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/White/crosshair007.png
+  artifactKey: Guid(15691f24b6b883d49be347379a649b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/White/crosshair007.png using Guid(15691f24b6b883d49be347379a649b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f2804b1b4e7147d6cd5f99f791a3be9') in 0.046698 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.282 seconds
+Refreshing native plugins compatible for Editor in 1.59 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.569 seconds
+Domain Reload Profiling: 850ms
+	BeginReloadAssembly (100ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (138ms)
+		LoadAssemblies (180ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (7ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (570ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (310ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (221ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3063 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3682.
+Memory consumption went from 120.0 MB to 120.0 MB.
+Total: 1.843800 ms (FindLiveObjects: 0.172800 ms CreateObjectMapping: 0.069500 ms MarkObjects: 1.572300 ms  DeleteObjects: 0.028600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 68.316405 seconds.
+  path: Assets/kenney_crosshair-pack/PNG/White/crosshair007.png
+  artifactKey: Guid(15691f24b6b883d49be347379a649b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_crosshair-pack/PNG/White/crosshair007.png using Guid(15691f24b6b883d49be347379a649b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c73533645790237fd19604667291d4ef') in 0.045486 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.286 seconds
+Refreshing native plugins compatible for Editor in 1.63 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.570 seconds
+Domain Reload Profiling: 854ms
+	BeginReloadAssembly (100ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (143ms)
+		LoadAssemblies (185ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (8ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (570ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (310ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (223ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3063 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3685.
+Memory consumption went from 120.0 MB to 120.0 MB.
+Total: 1.827600 ms (FindLiveObjects: 0.135200 ms CreateObjectMapping: 0.055400 ms MarkObjects: 1.607000 ms  DeleteObjects: 0.028600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 99.341990 seconds.
+  path: Assets/kenney_blaster-kit
+  artifactKey: Guid(9e1b7a17133d1304cb0be3c70ff98894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_blaster-kit using Guid(9e1b7a17133d1304cb0be3c70ff98894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2824381a30a2868e84e099606c0d6e69') in 0.001673 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.061075 seconds.
+  path: Assets/kenney_blaster-kit/Preview.png
+  artifactKey: Guid(d06aa91a35a3cee4fb26fab3508bc8de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_blaster-kit/Preview.png using Guid(d06aa91a35a3cee4fb26fab3508bc8de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05ba064fc7eb1573a81d87c3f87e815d') in 0.052036 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.759067 seconds.
+  path: Assets/kenney_blaster-kit/Models
+  artifactKey: Guid(9fffa341dd45aff4bb3082a875920223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_blaster-kit/Models using Guid(9fffa341dd45aff4bb3082a875920223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76dc1df8379cdf8ddd87894b6b9ea899') in 0.000429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.657093 seconds.
+  path: Assets/kenney_blaster-kit/Models/FBX format
+  artifactKey: Guid(6e7836cf08fe7dc4ba91c0891366a74f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_blaster-kit/Models/FBX format using Guid(6e7836cf08fe7dc4ba91c0891366a74f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48a76a47e0490e1d2a4b43e31642a185') in 0.000407 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.097843 seconds.
+  path: Assets/kenney_blaster-kit/Models/FBX format/blasterA.fbx
+  artifactKey: Guid(bb7c8cd461054c446891283051395266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_blaster-kit/Models/FBX format/blasterA.fbx using Guid(bb7c8cd461054c446891283051395266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da63972a578dc94ecbafa62726ec252e') in 0.188780 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/kenney_blaster-kit/Models/FBX format/blasterH.fbx
+  artifactKey: Guid(c72162203162d534bafb6e6e6b4f1e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_blaster-kit/Models/FBX format/blasterH.fbx using Guid(c72162203162d534bafb6e6e6b4f1e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '650436bf73b460dd294bc36db93ae3a4') in 0.036133 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/kenney_blaster-kit/Models/FBX format/scopeA.fbx
+  artifactKey: Guid(3fd91db74351c654fb6c715779dfbf48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_blaster-kit/Models/FBX format/scopeA.fbx using Guid(3fd91db74351c654fb6c715779dfbf48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '159411bffdfbc59ccd1503376df4de5f') in 0.034165 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/kenney_blaster-kit/Models/FBX format/scopeB.fbx
+  artifactKey: Guid(cfcb0815279b7d24b8128b51ef5b1d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_blaster-kit/Models/FBX format/scopeB.fbx using Guid(cfcb0815279b7d24b8128b51ef5b1d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac203e7da28e0ebba90266eeff4ac859') in 0.050953 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/kenney_blaster-kit/Models/FBX format/targetA.fbx
+  artifactKey: Guid(3909dda80ed85d7498db163e319635db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_blaster-kit/Models/FBX format/targetA.fbx using Guid(3909dda80ed85d7498db163e319635db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3eb7ac3d67793b9c6ac33ca711f1992') in 0.050147 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/kenney_blaster-kit/Models/FBX format/foamBulletA.fbx
+  artifactKey: Guid(5cc94303bf8d7df4eb239a549b3bbc22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_blaster-kit/Models/FBX format/foamBulletA.fbx using Guid(5cc94303bf8d7df4eb239a549b3bbc22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ab3966c5b494308da8809acf56f670a') in 0.020609 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/kenney_blaster-kit/Models/FBX format/blasterO.fbx
+  artifactKey: Guid(f645e58848f03e74fbbb6ddf97c96b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_blaster-kit/Models/FBX format/blasterO.fbx using Guid(f645e58848f03e74fbbb6ddf97c96b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '836ebb9d0a8f28af60f28e8f69b50a97') in 0.032054 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/kenney_blaster-kit/Models/FBX format/blasterR.fbx
+  artifactKey: Guid(e4bc6285552b5e8459f103ebc9c578a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_blaster-kit/Models/FBX format/blasterR.fbx using Guid(e4bc6285552b5e8459f103ebc9c578a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e1678b0248a48fc955a7d95751aa91a') in 0.035780 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/kenney_blaster-kit/Models/FBX format/foamBulletB-low.fbx
+  artifactKey: Guid(2912f579987ea204e86d64ea741cc326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_blaster-kit/Models/FBX format/foamBulletB-low.fbx using Guid(2912f579987ea204e86d64ea741cc326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49819b6f6afb6c3954298a32383b6a14') in 0.024202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/kenney_blaster-kit/Models/FBX format/clipA.fbx
+  artifactKey: Guid(7d2777f6128da0445842343cbda60928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_blaster-kit/Models/FBX format/clipA.fbx using Guid(7d2777f6128da0445842343cbda60928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07225340f7f6ff4ce39b3a8b54d2aaf1') in 0.030718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/kenney_blaster-kit/Models/FBX format/blasterN.fbx
+  artifactKey: Guid(c51ad8486fa0a00488c9d2322f8ccf7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_blaster-kit/Models/FBX format/blasterN.fbx using Guid(c51ad8486fa0a00488c9d2322f8ccf7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03823a0d8de92972f8128c31e74bea41') in 0.036212 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/kenney_blaster-kit/Models/FBX format/blasterP.fbx
+  artifactKey: Guid(295bb28d0b64c0a4c86ea954832078f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_blaster-kit/Models/FBX format/blasterP.fbx using Guid(295bb28d0b64c0a4c86ea954832078f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49b87c93f5c89c37a5ff070be018eaa1') in 0.032233 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/kenney_blaster-kit/Models/FBX format/blasterD.fbx
+  artifactKey: Guid(f41f1fe683888d443bab7a153cfceb75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_blaster-kit/Models/FBX format/blasterD.fbx using Guid(f41f1fe683888d443bab7a153cfceb75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7704a8f89d16c2d00e2712c2c25c37be') in 0.031449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/kenney_blaster-kit/Models/FBX format/foamBulletA-low.fbx
+  artifactKey: Guid(c834fdfac110d944dbea73b2235ca3c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_blaster-kit/Models/FBX format/foamBulletA-low.fbx using Guid(c834fdfac110d944dbea73b2235ca3c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b047b262a9058c235223549bcac88c6') in 0.017053 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/kenney_blaster-kit/Models/FBX format/targetB.fbx
+  artifactKey: Guid(5d2a2515fa7ba184db21afa68c3ca2ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_blaster-kit/Models/FBX format/targetB.fbx using Guid(5d2a2515fa7ba184db21afa68c3ca2ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14d8ff391c2833e85e3407985e9462f4') in 0.027616 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.316 seconds
+Refreshing native plugins compatible for Editor in 1.80 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.611 seconds
+Domain Reload Profiling: 925ms
+	BeginReloadAssembly (109ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (160ms)
+		LoadAssemblies (210ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (611ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (330ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (234ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3063 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3728.
+Memory consumption went from 120.5 MB to 120.4 MB.
+Total: 1.841000 ms (FindLiveObjects: 0.151800 ms CreateObjectMapping: 0.067400 ms MarkObjects: 1.592700 ms  DeleteObjects: 0.028500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
