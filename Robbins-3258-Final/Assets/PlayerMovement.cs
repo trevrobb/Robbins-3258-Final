@@ -30,7 +30,7 @@ public class PlayerMovement : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.Space))
             {
-                rb.AddForce(transform.up * jumpForce, ForceMode.Impulse);
+                rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
             }
         }
         
@@ -61,7 +61,8 @@ public class PlayerMovement : MonoBehaviour
     void moveCharacter(Vector3 direction)
     {
         movement = Camera.main.transform.forward * direction.z + Camera.main.transform.right * direction.x;
-        rb.velocity = movement * speed;
+        movement.y = 0f;
+        rb.velocity = movement.normalized * speed;
     }
 
     bool isGrounded()
