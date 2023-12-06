@@ -14,7 +14,8 @@ public class PlayerMovement : MonoBehaviour
     bool grounded;
     bool sprint;
 
-
+    float verticalInput;
+    float horizontalInput;
     void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -24,12 +25,12 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        movement = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
+        movement = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical") );
         if (isGrounded())
         {
             if (Input.GetKeyDown(KeyCode.Space))
             {
-                rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+                rb.AddForce(transform.up * jumpForce, ForceMode.Impulse);
             }
         }
         
@@ -47,19 +48,20 @@ public class PlayerMovement : MonoBehaviour
     {
         if (sprint && speed == normalSpeed)
         {
-            speed = speed * 2f;
+            speed = speed * 1.5f;
         }
-        else { speed = normalSpeed; }
+        else if (!sprint){ speed = normalSpeed; }
 
         
         moveCharacter(movement);
         rb.AddForce(Physics.gravity * (gravityScale - 1) * rb.mass);
-
+        transform.Rotate(new Vector3(0, Camera.main.transform.rotation.y, 0));
     }
 
     void moveCharacter(Vector3 direction)
     {
-        rb.velocity = direction * speed;
+        movement = Camera.main.transform.forward * direction.z + Camera.main.transform.right * direction.x;
+        rb.velocity = movement * speed;
     }
 
     bool isGrounded()
