@@ -16,6 +16,12 @@ public class PlayerMovement : MonoBehaviour
 
     float verticalInput;
     float horizontalInput;
+
+    public bool activeGrapple;
+
+    
+
+    private bool enableMovementOnNextTouch;
     void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -68,5 +74,63 @@ public class PlayerMovement : MonoBehaviour
     bool isGrounded()
     {
         return rb.velocity.y == 0;
+    }
+
+    public void JumpToPosition(Vector3 targetPosition, float trajectoryHeight)
+    {
+        activeGrapple = true;
+
+        velocityToSet = CalculateJumpVelocity(transform.position, targetPosition, trajectoryHeight);
+        Invoke(nameof(SetVelocity), 0.2f);
+
+        Invoke(nameof(ResetRestrictions), 3f);
+    }
+
+    public Vector3 CalculateJumpVelocity(Vector3 startPoint, Vector3 endPoint, float trajectoryHeight)
+    {
+        float gravity = Physics.gravity.y;
+        float displacementY = endPoint.y - startPoint.y;
+        Vector3 displacementXZ = new Vector3(endPoint.x - startPoint.x, 0f, endPoint.z - startPoint.z);
+
+        Vector3 velocityY = Vector3.up * Mathf.Sqrt(-2 * gravity * trajectoryHeight);
+
+        Vector3 velocityXZ = displacementXZ / (Mathf.Sqrt(-2 * trajectoryHeight / gravity)
+            + Mathf.Sqrt(2 * (displacementY - trajectoryHeight) / gravity));
+
+
+        return velocityXZ + velocityY;
+    }
+    private Vector3 velocityToSet;
+    private void SetVelocity()
+    {
+        enableMovementOnNextTouch = true;
+        rb.velocity = velocityToSet;
+
+
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (enableMovementOnNextTouch)
+        {
+            enableMovementOnNextTouch = false;
+            ResetRestrictions();
+            GrapplingGun.instance.StopGrappling();
+        }
+
+    }
+
+    public void ResetRestrictions()
+    {
+        activeGrapple = false;
+
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Rocket"))
+        {
+            rb.AddExplosionForce(20f, other.transform.position, 30f);
+        }
     }
 }
