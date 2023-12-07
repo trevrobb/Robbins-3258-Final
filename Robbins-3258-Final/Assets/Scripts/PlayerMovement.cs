@@ -62,7 +62,7 @@ public class PlayerMovement : MonoBehaviour
 
         
         moveCharacter(movement);
-        rb.AddForce(Physics.gravity * (gravityScale - 1) * rb.mass);
+        //rb.AddForce(Physics.gravity * (gravityScale - 1) * rb.mass);
         transform.Rotate(new Vector3(0, Camera.main.transform.rotation.y, 0));
     }
 
@@ -86,7 +86,7 @@ public class PlayerMovement : MonoBehaviour
         velocityToSet = CalculateJumpVelocity(transform.position, targetPosition, trajectoryHeight);
         Invoke(nameof(SetVelocity), 0.2f);
 
-        Invoke(nameof(ResetRestrictions), 10f);
+        Invoke(nameof(ResetRestrictions), 3f);
     }
 
     public Vector3 CalculateJumpVelocity(Vector3 startPoint, Vector3 endPoint, float trajectoryHeight)
