@@ -56,10 +56,7 @@ public class GrapplingGun : MonoBehaviour
     {
         if (grapplingCdTimer > 0) return;
         grappling = true;
-        if (grappling)
-        {
-            lineRenderer.SetPosition(0, gunTip.position);
-        }
+       
         RaycastHit hit;
 
         pm._freeze = true;
