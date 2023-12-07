@@ -19,7 +19,7 @@ public class PlayerMovement : MonoBehaviour
 
     public bool activeGrapple;
 
-    
+    public bool _freeze;
 
     private bool enableMovementOnNextTouch;
     void Start()
@@ -48,6 +48,8 @@ public class PlayerMovement : MonoBehaviour
         {
             sprint = false;
         }
+
+        
     }
 
     private void FixedUpdate()
@@ -66,6 +68,7 @@ public class PlayerMovement : MonoBehaviour
 
     void moveCharacter(Vector3 direction)
     {
+        if (GrapplingGun.instance.grappling) return;
         movement = Camera.main.transform.forward * direction.z + Camera.main.transform.right * direction.x;
         movement.y = 0f;
         rb.velocity = movement.normalized * speed;
@@ -83,7 +86,7 @@ public class PlayerMovement : MonoBehaviour
         velocityToSet = CalculateJumpVelocity(transform.position, targetPosition, trajectoryHeight);
         Invoke(nameof(SetVelocity), 0.2f);
 
-        Invoke(nameof(ResetRestrictions), 3f);
+        Invoke(nameof(ResetRestrictions), 10f);
     }
 
     public Vector3 CalculateJumpVelocity(Vector3 startPoint, Vector3 endPoint, float trajectoryHeight)
@@ -115,7 +118,7 @@ public class PlayerMovement : MonoBehaviour
         {
             enableMovementOnNextTouch = false;
             ResetRestrictions();
-            GrapplingGun.instance.StopGrappling();
+            GrapplingGun.instance.StopGrapple();
         }
 
     }

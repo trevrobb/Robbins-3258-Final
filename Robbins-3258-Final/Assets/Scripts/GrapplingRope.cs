@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class GrapplingRope : MonoBehaviour
 {
-    /*this script is what actually renders my rope and applies the sin animation to it, what it does it basically break my line up into individual segments and applies the animation to each segment, while lerping the rope to
-      the desired position over time. It also came from a tutorial, but not the same one as where I got my swinging or grappling functionality. */
+   
     private Spring spring;
     private LineRenderer lr;
     private Vector3 currentGrapplePosition;
@@ -24,7 +23,7 @@ public class GrapplingRope : MonoBehaviour
     }
     void DrawRope()
     {
-        if (!GrapplingGun.instance.isGrapple() && !GrapplingGun.instance.isGrapplingg())
+        if (!GrapplingGun.instance.grappling)
         {
             currentGrapplePosition = GrapplingGun.instance.gunTip.position;
             spring.Reset();

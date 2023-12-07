@@ -23,11 +23,16 @@ public class GrapplingGun : MonoBehaviour
 
     public KeyCode grapplingKey = KeyCode.LeftControl;
 
-    private bool grappling;
+    public bool grappling;
+
+    public static GrapplingGun instance;
+
+    public float overShootYAxis;
 
     private void Start()
     {
-        pm = GetComponent<PlayerMovement>();
+        pm = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMovement>();
+        instance = this;
     }
 
     private void Update()
@@ -51,12 +56,16 @@ public class GrapplingGun : MonoBehaviour
     {
         if (grapplingCdTimer > 0) return;
         grappling = true;
-
+        if (grappling)
+        {
+            lineRenderer.SetPosition(0, gunTip.position);
+        }
         RaycastHit hit;
 
+        pm._freeze = true;
         if (Physics.Raycast(cam.position, cam.forward, out hit, maxGrappleDistance, grappleMask)){
             grapplePoint = hit.point;
-
+            
             Invoke(nameof(ExecuteGrapple), grappleDelayTime);
         }
         else
@@ -67,20 +76,39 @@ public class GrapplingGun : MonoBehaviour
         }
 
         lineRenderer.enabled = true;
+
         lineRenderer.SetPosition(1, grapplePoint);
+        Debug.Log(grapplePoint);
     }
 
     private void ExecuteGrapple()
     {
+        pm._freeze = false;
 
+        Vector3 lowestPoint = new Vector3(transform.position.x, transform.position.y - 1f, transform.position.z);
+
+        float grapplePointRelativeYPos = grapplePoint.y - lowestPoint.y;
+
+        float highestPointOnArc = grapplePointRelativeYPos + overShootYAxis;
+
+        if (grapplePointRelativeYPos < 0) highestPointOnArc = overShootYAxis;
+
+        pm.JumpToPosition(grapplePoint, highestPointOnArc);
+
+        Invoke(nameof(StopGrapple), 1f);
     }
 
-    private void StopGrapple()
+    public void StopGrapple()
     {
         grappling = false;
         grapplingCdTimer = grapplingCd;
 
         lineRenderer.enabled = false;
+    }
+
+    public Vector3 getGrapplePoint()
+    {
+        return grapplePoint;
     }
 
 

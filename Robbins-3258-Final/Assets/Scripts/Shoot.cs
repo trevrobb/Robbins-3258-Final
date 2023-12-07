@@ -19,7 +19,7 @@ public class Shoot : MonoBehaviour
 
     void Start()
     {
-        gunshotLine = GetComponent<LineRenderer>();
+        
         cam = Camera.main;
         
     }
