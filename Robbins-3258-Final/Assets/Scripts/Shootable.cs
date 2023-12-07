@@ -5,13 +5,14 @@ using UnityEngine;
 public class Shootable : MonoBehaviour
 {
     public int health = 3;
-
+    public int pointValue;
     public void Damage(int damageAmount)
     {
         health -= damageAmount;
 
         if (health <= 0)
         {
+            GameManager.instance.addScore(pointValue);
             GameObject.Destroy(gameObject);
         }
     }
