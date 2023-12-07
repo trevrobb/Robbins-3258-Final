@@ -78,7 +78,7 @@ public class GrapplingGun : MonoBehaviour
         lineRenderer.enabled = true;
 
         lineRenderer.SetPosition(1, grapplePoint);
-        Debug.Log(grapplePoint);
+       
     }
 
     private void ExecuteGrapple()
