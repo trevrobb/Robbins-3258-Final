@@ -70,7 +70,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (GrapplingGun.instance.grappling) return;
         movement = Camera.main.transform.forward * direction.z + Camera.main.transform.right * direction.x;
-        movement.y = 0f;
+        
         rb.velocity = movement.normalized * speed;
     }
 

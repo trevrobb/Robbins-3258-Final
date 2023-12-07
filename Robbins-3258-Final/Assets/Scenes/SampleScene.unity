@@ -5745,7 +5745,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Press Enter to continue...
+  m_text: Press Space to continue...
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -13870,11 +13870,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   score: 0
-  timer: 10
+  timer: 180
   scoreText: {fileID: 2076880473}
   timerText: {fileID: 1075141868}
   scoreText2: {fileID: 1848742442}
   gameOverCanvas: {fileID: 76416064}
+  IntroCanvas: {fileID: 1821957626}
+  crossHair: {fileID: 1966905920}
 --- !u!4 &1846789510
 Transform:
   m_ObjectHideFlags: 0
@@ -14751,7 +14753,7 @@ GameObject:
   - component: {fileID: 1966905921}
   - component: {fileID: 1966905920}
   m_Layer: 5
-  m_Name: Image
+  m_Name: CrossHair
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
