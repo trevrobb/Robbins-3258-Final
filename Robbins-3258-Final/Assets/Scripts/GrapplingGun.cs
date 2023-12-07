@@ -59,7 +59,7 @@ public class GrapplingGun : MonoBehaviour
        
         RaycastHit hit;
 
-        pm._freeze = true;
+       
         if (Physics.Raycast(cam.position, cam.forward, out hit, maxGrappleDistance, grappleMask)){
             grapplePoint = hit.point;
             
