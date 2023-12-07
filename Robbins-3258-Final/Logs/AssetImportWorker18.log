@@ -371,3 +371,863 @@ AssetImportParameters requested are different than current active one (requested
   custom:scripting/monoscript/fileName/PlayerMovement.cs: 5c1499cfc43e291157e191fb54bb34f9 -> 42480eed24e61f9d7e7e895933644f96
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:scripting/monoscript/fileName/RocketBehavior.cs: 6d8895043bf0bd137d17742f7b1ac109 -> 9f62e590aeec7838b0daf81fd24bf3aa
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.294 seconds
+Refreshing native plugins compatible for Editor in 1.64 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.553 seconds
+Domain Reload Profiling: 845ms
+	BeginReloadAssembly (100ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (147ms)
+		LoadAssemblies (186ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (553ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (299ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (217ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3082 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3575.
+Memory consumption went from 117.3 MB to 117.2 MB.
+Total: 1.677900 ms (FindLiveObjects: 0.129600 ms CreateObjectMapping: 0.051100 ms MarkObjects: 1.470200 ms  DeleteObjects: 0.026400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/RocketShoot.cs: 3fb2bd5041e1aa79ce3d0fd533b4eeb9 -> fff3f223fa0c7e144d7e7403694e6dcc
+  custom:scripting/monoscript/fileName/Shootable.cs: 880bb04ab3117f2fb564053ef5bdb2cf -> d2709582da58a92be19012656bee4d4e
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/GrapplingHook.cs: 325ffc35064c6322faf9dc340f09ec7c -> 1f7785b81827c884379ccdeee6918f30
+  custom:scripting/monoscript/fileName/GameManager.cs: f6182d712e34e20e3202214886862cdb -> 9933fbcc6190e2a9171c2ec8808a053e
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/horizontalMove2.cs: 03b10fc75badc7c6cdf0e316dd35ca54 -> e66dd3346ac1af9c65aea04b427c0c83
+  custom:scripting/monoscript/fileName/HookDetector.cs: 4912cf50ec7a38d4cfa2d7849c1e1afd -> 8b89c7f79039006eca9b2eabe7856be5
+  custom:scripting/monoscript/fileName/BoxMovement2.cs: bfafab7c3533d13b32812c074fb56b9d -> 60095d019e20da2d904d42a43ee559ef
+  custom:scripting/monoscript/fileName/GrapplingGun.cs: c6f63c2bc0100b9f6daba303de7e6391 -> 77176f16d51127b7327ebe60da444b1b
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/GrapplingRope.cs: 555f8125f2fce5660ff30a25a5cb66e4 -> a23c72b28e12b7dce88f9c5c210e42b0
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/DiagonalMove2.cs: 6ababa1b0dccfffd14d72e8107d33652 -> b01a4fa259b185d0c39e0c728ff6dc44
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/CameraRotation.cs: 630330bfb47f2aea353f1ecc533900d0 -> d4cc322b5298abd44086bcde05908e0f
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/GunRotation.cs: cf379a5e085c2f2f982341419a662165 -> fb24c0843de1e3ee5b209a11e120c169
+  custom:scripting/monoscript/fileName/Spring.cs: 6eccab55988c58a76a2e6296076586ab -> d117b58fbaf306386e0697937c2909d1
+  custom:scripting/monoscript/fileName/horizontalMove.cs: 712b7754d8efbf04ad2df8f72b65be3c -> 0c4b53b58f16a0204929e282ac1bb9f0
+  custom:scripting/monoscript/fileName/BoxMovement.cs: 373cba0184f1736f815694657b459622 -> 666042f885f3ccddcdc3c762d995595a
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/diagonalMove.cs: 8963a66d4408b8293449f0da3bd79ace -> fe3a4279a44e8b708d5d3718ab615587
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/verticalMove.cs: df044806629096aa10b51ec549b71282 -> 514b012bca634eb12bac95b325cfc927
+  custom:scripting/monoscript/fileName/Shoot.cs: 3268cb677615c566e3914308f81a755c -> 4326161f07303b177729a8bb5e487227
+  custom:scripting/monoscript/fileName/Line.cs: 8bf94875d96fb6b6a0d27b4a9998991d -> 
+  custom:scripting/monoscript/fileName/PlayerMovement.cs: 5c1499cfc43e291157e191fb54bb34f9 -> 42480eed24e61f9d7e7e895933644f96
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/RocketBehavior.cs: 6d8895043bf0bd137d17742f7b1ac109 -> 9f62e590aeec7838b0daf81fd24bf3aa
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.278 seconds
+Refreshing native plugins compatible for Editor in 1.60 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.538 seconds
+Domain Reload Profiling: 815ms
+	BeginReloadAssembly (95ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (139ms)
+		LoadAssemblies (179ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (539ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (281ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (201ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3082 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.6 KB). Loaded Objects now: 3578.
+Memory consumption went from 117.3 MB to 117.2 MB.
+Total: 1.699000 ms (FindLiveObjects: 0.130100 ms CreateObjectMapping: 0.055600 ms MarkObjects: 1.484700 ms  DeleteObjects: 0.027800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/RocketShoot.cs: 3fb2bd5041e1aa79ce3d0fd533b4eeb9 -> fff3f223fa0c7e144d7e7403694e6dcc
+  custom:scripting/monoscript/fileName/Shootable.cs: 880bb04ab3117f2fb564053ef5bdb2cf -> d2709582da58a92be19012656bee4d4e
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/GrapplingHook.cs: 325ffc35064c6322faf9dc340f09ec7c -> 1f7785b81827c884379ccdeee6918f30
+  custom:scripting/monoscript/fileName/GameManager.cs: f6182d712e34e20e3202214886862cdb -> 9933fbcc6190e2a9171c2ec8808a053e
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/horizontalMove2.cs: 03b10fc75badc7c6cdf0e316dd35ca54 -> e66dd3346ac1af9c65aea04b427c0c83
+  custom:scripting/monoscript/fileName/HookDetector.cs: 4912cf50ec7a38d4cfa2d7849c1e1afd -> 8b89c7f79039006eca9b2eabe7856be5
+  custom:scripting/monoscript/fileName/BoxMovement2.cs: bfafab7c3533d13b32812c074fb56b9d -> 60095d019e20da2d904d42a43ee559ef
+  custom:scripting/monoscript/fileName/GrapplingGun.cs: c6f63c2bc0100b9f6daba303de7e6391 -> 77176f16d51127b7327ebe60da444b1b
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/GrapplingRope.cs: 555f8125f2fce5660ff30a25a5cb66e4 -> a23c72b28e12b7dce88f9c5c210e42b0
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/DiagonalMove2.cs: 6ababa1b0dccfffd14d72e8107d33652 -> b01a4fa259b185d0c39e0c728ff6dc44
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/CameraRotation.cs: 630330bfb47f2aea353f1ecc533900d0 -> d4cc322b5298abd44086bcde05908e0f
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/GunRotation.cs: cf379a5e085c2f2f982341419a662165 -> fb24c0843de1e3ee5b209a11e120c169
+  custom:scripting/monoscript/fileName/Spring.cs: 6eccab55988c58a76a2e6296076586ab -> d117b58fbaf306386e0697937c2909d1
+  custom:scripting/monoscript/fileName/horizontalMove.cs: 712b7754d8efbf04ad2df8f72b65be3c -> 0c4b53b58f16a0204929e282ac1bb9f0
+  custom:scripting/monoscript/fileName/BoxMovement.cs: 373cba0184f1736f815694657b459622 -> 666042f885f3ccddcdc3c762d995595a
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/diagonalMove.cs: 8963a66d4408b8293449f0da3bd79ace -> fe3a4279a44e8b708d5d3718ab615587
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/verticalMove.cs: df044806629096aa10b51ec549b71282 -> 514b012bca634eb12bac95b325cfc927
+  custom:scripting/monoscript/fileName/Shoot.cs: 3268cb677615c566e3914308f81a755c -> 4326161f07303b177729a8bb5e487227
+  custom:scripting/monoscript/fileName/Line.cs: 8bf94875d96fb6b6a0d27b4a9998991d -> 
+  custom:scripting/monoscript/fileName/PlayerMovement.cs: 5c1499cfc43e291157e191fb54bb34f9 -> 42480eed24e61f9d7e7e895933644f96
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/RocketBehavior.cs: 6d8895043bf0bd137d17742f7b1ac109 -> 9f62e590aeec7838b0daf81fd24bf3aa
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.293 seconds
+Refreshing native plugins compatible for Editor in 1.58 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.537 seconds
+Domain Reload Profiling: 828ms
+	BeginReloadAssembly (97ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (152ms)
+		LoadAssemblies (181ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (20ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (537ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (285ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (59ms)
+			ProcessInitializeOnLoadAttributes (204ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3082 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3581.
+Memory consumption went from 117.3 MB to 117.2 MB.
+Total: 1.829100 ms (FindLiveObjects: 0.140100 ms CreateObjectMapping: 0.067000 ms MarkObjects: 1.595000 ms  DeleteObjects: 0.026400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/RocketShoot.cs: 3fb2bd5041e1aa79ce3d0fd533b4eeb9 -> fff3f223fa0c7e144d7e7403694e6dcc
+  custom:scripting/monoscript/fileName/Shootable.cs: 880bb04ab3117f2fb564053ef5bdb2cf -> d2709582da58a92be19012656bee4d4e
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/GrapplingHook.cs: 325ffc35064c6322faf9dc340f09ec7c -> 1f7785b81827c884379ccdeee6918f30
+  custom:scripting/monoscript/fileName/GameManager.cs: f6182d712e34e20e3202214886862cdb -> 9933fbcc6190e2a9171c2ec8808a053e
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/horizontalMove2.cs: 03b10fc75badc7c6cdf0e316dd35ca54 -> e66dd3346ac1af9c65aea04b427c0c83
+  custom:scripting/monoscript/fileName/HookDetector.cs: 4912cf50ec7a38d4cfa2d7849c1e1afd -> 8b89c7f79039006eca9b2eabe7856be5
+  custom:scripting/monoscript/fileName/BoxMovement2.cs: bfafab7c3533d13b32812c074fb56b9d -> 60095d019e20da2d904d42a43ee559ef
+  custom:scripting/monoscript/fileName/GrapplingGun.cs: c6f63c2bc0100b9f6daba303de7e6391 -> 77176f16d51127b7327ebe60da444b1b
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/GrapplingRope.cs: 555f8125f2fce5660ff30a25a5cb66e4 -> a23c72b28e12b7dce88f9c5c210e42b0
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/DiagonalMove2.cs: 6ababa1b0dccfffd14d72e8107d33652 -> b01a4fa259b185d0c39e0c728ff6dc44
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/CameraRotation.cs: 630330bfb47f2aea353f1ecc533900d0 -> d4cc322b5298abd44086bcde05908e0f
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/GunRotation.cs: cf379a5e085c2f2f982341419a662165 -> fb24c0843de1e3ee5b209a11e120c169
+  custom:scripting/monoscript/fileName/Spring.cs: 6eccab55988c58a76a2e6296076586ab -> d117b58fbaf306386e0697937c2909d1
+  custom:scripting/monoscript/fileName/horizontalMove.cs: 712b7754d8efbf04ad2df8f72b65be3c -> 0c4b53b58f16a0204929e282ac1bb9f0
+  custom:scripting/monoscript/fileName/BoxMovement.cs: 373cba0184f1736f815694657b459622 -> 666042f885f3ccddcdc3c762d995595a
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/diagonalMove.cs: 8963a66d4408b8293449f0da3bd79ace -> fe3a4279a44e8b708d5d3718ab615587
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/verticalMove.cs: df044806629096aa10b51ec549b71282 -> 514b012bca634eb12bac95b325cfc927
+  custom:scripting/monoscript/fileName/Shoot.cs: 3268cb677615c566e3914308f81a755c -> 4326161f07303b177729a8bb5e487227
+  custom:scripting/monoscript/fileName/Line.cs: 8bf94875d96fb6b6a0d27b4a9998991d -> 
+  custom:scripting/monoscript/fileName/PlayerMovement.cs: 5c1499cfc43e291157e191fb54bb34f9 -> 42480eed24e61f9d7e7e895933644f96
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/RocketBehavior.cs: 6d8895043bf0bd137d17742f7b1ac109 -> 9f62e590aeec7838b0daf81fd24bf3aa
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.295 seconds
+Refreshing native plugins compatible for Editor in 2.33 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.535 seconds
+Domain Reload Profiling: 828ms
+	BeginReloadAssembly (98ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (151ms)
+		LoadAssemblies (190ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (535ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (284ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (204ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3082 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3584.
+Memory consumption went from 117.3 MB to 117.2 MB.
+Total: 1.691400 ms (FindLiveObjects: 0.124700 ms CreateObjectMapping: 0.057300 ms MarkObjects: 1.482600 ms  DeleteObjects: 0.026300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/RocketShoot.cs: 3fb2bd5041e1aa79ce3d0fd533b4eeb9 -> fff3f223fa0c7e144d7e7403694e6dcc
+  custom:scripting/monoscript/fileName/Shootable.cs: 880bb04ab3117f2fb564053ef5bdb2cf -> d2709582da58a92be19012656bee4d4e
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/GrapplingHook.cs: 325ffc35064c6322faf9dc340f09ec7c -> 1f7785b81827c884379ccdeee6918f30
+  custom:scripting/monoscript/fileName/GameManager.cs: f6182d712e34e20e3202214886862cdb -> 9933fbcc6190e2a9171c2ec8808a053e
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/horizontalMove2.cs: 03b10fc75badc7c6cdf0e316dd35ca54 -> e66dd3346ac1af9c65aea04b427c0c83
+  custom:scripting/monoscript/fileName/HookDetector.cs: 4912cf50ec7a38d4cfa2d7849c1e1afd -> 8b89c7f79039006eca9b2eabe7856be5
+  custom:scripting/monoscript/fileName/BoxMovement2.cs: bfafab7c3533d13b32812c074fb56b9d -> 60095d019e20da2d904d42a43ee559ef
+  custom:scripting/monoscript/fileName/GrapplingGun.cs: c6f63c2bc0100b9f6daba303de7e6391 -> 77176f16d51127b7327ebe60da444b1b
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/GrapplingRope.cs: 555f8125f2fce5660ff30a25a5cb66e4 -> a23c72b28e12b7dce88f9c5c210e42b0
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/DiagonalMove2.cs: 6ababa1b0dccfffd14d72e8107d33652 -> b01a4fa259b185d0c39e0c728ff6dc44
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/CameraRotation.cs: 630330bfb47f2aea353f1ecc533900d0 -> d4cc322b5298abd44086bcde05908e0f
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/GunRotation.cs: cf379a5e085c2f2f982341419a662165 -> fb24c0843de1e3ee5b209a11e120c169
+  custom:scripting/monoscript/fileName/Spring.cs: 6eccab55988c58a76a2e6296076586ab -> d117b58fbaf306386e0697937c2909d1
+  custom:scripting/monoscript/fileName/horizontalMove.cs: 712b7754d8efbf04ad2df8f72b65be3c -> 0c4b53b58f16a0204929e282ac1bb9f0
+  custom:scripting/monoscript/fileName/BoxMovement.cs: 373cba0184f1736f815694657b459622 -> 666042f885f3ccddcdc3c762d995595a
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/diagonalMove.cs: 8963a66d4408b8293449f0da3bd79ace -> fe3a4279a44e8b708d5d3718ab615587
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/verticalMove.cs: df044806629096aa10b51ec549b71282 -> 514b012bca634eb12bac95b325cfc927
+  custom:scripting/monoscript/fileName/Shoot.cs: 3268cb677615c566e3914308f81a755c -> 4326161f07303b177729a8bb5e487227
+  custom:scripting/monoscript/fileName/Line.cs: 8bf94875d96fb6b6a0d27b4a9998991d -> 
+  custom:scripting/monoscript/fileName/PlayerMovement.cs: 5c1499cfc43e291157e191fb54bb34f9 -> 42480eed24e61f9d7e7e895933644f96
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/RocketBehavior.cs: 6d8895043bf0bd137d17742f7b1ac109 -> 9f62e590aeec7838b0daf81fd24bf3aa
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.288 seconds
+Refreshing native plugins compatible for Editor in 1.59 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.528 seconds
+Domain Reload Profiling: 814ms
+	BeginReloadAssembly (98ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (145ms)
+		LoadAssemblies (178ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (528ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (283ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (202ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3082 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3587.
+Memory consumption went from 117.3 MB to 117.2 MB.
+Total: 1.842400 ms (FindLiveObjects: 0.150300 ms CreateObjectMapping: 0.069100 ms MarkObjects: 1.591400 ms  DeleteObjects: 0.030900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/RocketShoot.cs: 3fb2bd5041e1aa79ce3d0fd533b4eeb9 -> fff3f223fa0c7e144d7e7403694e6dcc
+  custom:scripting/monoscript/fileName/Shootable.cs: 880bb04ab3117f2fb564053ef5bdb2cf -> d2709582da58a92be19012656bee4d4e
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/GrapplingHook.cs: 325ffc35064c6322faf9dc340f09ec7c -> 1f7785b81827c884379ccdeee6918f30
+  custom:scripting/monoscript/fileName/GameManager.cs: f6182d712e34e20e3202214886862cdb -> 9933fbcc6190e2a9171c2ec8808a053e
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/horizontalMove2.cs: 03b10fc75badc7c6cdf0e316dd35ca54 -> e66dd3346ac1af9c65aea04b427c0c83
+  custom:scripting/monoscript/fileName/HookDetector.cs: 4912cf50ec7a38d4cfa2d7849c1e1afd -> 8b89c7f79039006eca9b2eabe7856be5
+  custom:scripting/monoscript/fileName/BoxMovement2.cs: bfafab7c3533d13b32812c074fb56b9d -> 60095d019e20da2d904d42a43ee559ef
+  custom:scripting/monoscript/fileName/GrapplingGun.cs: c6f63c2bc0100b9f6daba303de7e6391 -> 77176f16d51127b7327ebe60da444b1b
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/GrapplingRope.cs: 555f8125f2fce5660ff30a25a5cb66e4 -> a23c72b28e12b7dce88f9c5c210e42b0
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/DiagonalMove2.cs: 6ababa1b0dccfffd14d72e8107d33652 -> b01a4fa259b185d0c39e0c728ff6dc44
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/CameraRotation.cs: 630330bfb47f2aea353f1ecc533900d0 -> d4cc322b5298abd44086bcde05908e0f
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/GunRotation.cs: cf379a5e085c2f2f982341419a662165 -> fb24c0843de1e3ee5b209a11e120c169
+  custom:scripting/monoscript/fileName/Spring.cs: 6eccab55988c58a76a2e6296076586ab -> d117b58fbaf306386e0697937c2909d1
+  custom:scripting/monoscript/fileName/horizontalMove.cs: 712b7754d8efbf04ad2df8f72b65be3c -> 0c4b53b58f16a0204929e282ac1bb9f0
+  custom:scripting/monoscript/fileName/BoxMovement.cs: 373cba0184f1736f815694657b459622 -> 666042f885f3ccddcdc3c762d995595a
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/diagonalMove.cs: 8963a66d4408b8293449f0da3bd79ace -> fe3a4279a44e8b708d5d3718ab615587
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/verticalMove.cs: df044806629096aa10b51ec549b71282 -> 514b012bca634eb12bac95b325cfc927
+  custom:scripting/monoscript/fileName/Shoot.cs: 3268cb677615c566e3914308f81a755c -> 4326161f07303b177729a8bb5e487227
+  custom:scripting/monoscript/fileName/Line.cs: 8bf94875d96fb6b6a0d27b4a9998991d -> 
+  custom:scripting/monoscript/fileName/PlayerMovement.cs: 5c1499cfc43e291157e191fb54bb34f9 -> 42480eed24e61f9d7e7e895933644f96
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/RocketBehavior.cs: 6d8895043bf0bd137d17742f7b1ac109 -> 9f62e590aeec7838b0daf81fd24bf3aa
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.284 seconds
+Refreshing native plugins compatible for Editor in 1.56 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.535 seconds
+Domain Reload Profiling: 818ms
+	BeginReloadAssembly (100ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (140ms)
+		LoadAssemblies (178ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (535ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (281ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (202ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3082 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.6 KB). Loaded Objects now: 3590.
+Memory consumption went from 117.3 MB to 117.2 MB.
+Total: 1.787000 ms (FindLiveObjects: 0.126600 ms CreateObjectMapping: 0.057700 ms MarkObjects: 1.574600 ms  DeleteObjects: 0.027300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/RocketShoot.cs: 3fb2bd5041e1aa79ce3d0fd533b4eeb9 -> fff3f223fa0c7e144d7e7403694e6dcc
+  custom:scripting/monoscript/fileName/Shootable.cs: 880bb04ab3117f2fb564053ef5bdb2cf -> d2709582da58a92be19012656bee4d4e
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/GrapplingHook.cs: 325ffc35064c6322faf9dc340f09ec7c -> 1f7785b81827c884379ccdeee6918f30
+  custom:scripting/monoscript/fileName/GameManager.cs: f6182d712e34e20e3202214886862cdb -> 9933fbcc6190e2a9171c2ec8808a053e
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/horizontalMove2.cs: 03b10fc75badc7c6cdf0e316dd35ca54 -> e66dd3346ac1af9c65aea04b427c0c83
+  custom:scripting/monoscript/fileName/HookDetector.cs: 4912cf50ec7a38d4cfa2d7849c1e1afd -> 8b89c7f79039006eca9b2eabe7856be5
+  custom:scripting/monoscript/fileName/BoxMovement2.cs: bfafab7c3533d13b32812c074fb56b9d -> 60095d019e20da2d904d42a43ee559ef
+  custom:scripting/monoscript/fileName/GrapplingGun.cs: c6f63c2bc0100b9f6daba303de7e6391 -> 77176f16d51127b7327ebe60da444b1b
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/GrapplingRope.cs: 555f8125f2fce5660ff30a25a5cb66e4 -> a23c72b28e12b7dce88f9c5c210e42b0
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/DiagonalMove2.cs: 6ababa1b0dccfffd14d72e8107d33652 -> b01a4fa259b185d0c39e0c728ff6dc44
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/CameraRotation.cs: 630330bfb47f2aea353f1ecc533900d0 -> d4cc322b5298abd44086bcde05908e0f
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/GunRotation.cs: cf379a5e085c2f2f982341419a662165 -> fb24c0843de1e3ee5b209a11e120c169
+  custom:scripting/monoscript/fileName/Spring.cs: 6eccab55988c58a76a2e6296076586ab -> d117b58fbaf306386e0697937c2909d1
+  custom:scripting/monoscript/fileName/horizontalMove.cs: 712b7754d8efbf04ad2df8f72b65be3c -> 0c4b53b58f16a0204929e282ac1bb9f0
+  custom:scripting/monoscript/fileName/BoxMovement.cs: 373cba0184f1736f815694657b459622 -> 666042f885f3ccddcdc3c762d995595a
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/diagonalMove.cs: 8963a66d4408b8293449f0da3bd79ace -> fe3a4279a44e8b708d5d3718ab615587
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/verticalMove.cs: df044806629096aa10b51ec549b71282 -> 514b012bca634eb12bac95b325cfc927
+  custom:scripting/monoscript/fileName/Shoot.cs: 3268cb677615c566e3914308f81a755c -> 4326161f07303b177729a8bb5e487227
+  custom:scripting/monoscript/fileName/Line.cs: 8bf94875d96fb6b6a0d27b4a9998991d -> 
+  custom:scripting/monoscript/fileName/PlayerMovement.cs: 5c1499cfc43e291157e191fb54bb34f9 -> 42480eed24e61f9d7e7e895933644f96
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/RocketBehavior.cs: 6d8895043bf0bd137d17742f7b1ac109 -> 9f62e590aeec7838b0daf81fd24bf3aa
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.273 seconds
+Refreshing native plugins compatible for Editor in 1.69 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.524 seconds
+Domain Reload Profiling: 795ms
+	BeginReloadAssembly (97ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (133ms)
+		LoadAssemblies (174ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (8ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (524ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (277ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (199ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3082 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3593.
+Memory consumption went from 117.3 MB to 117.3 MB.
+Total: 1.734000 ms (FindLiveObjects: 0.137000 ms CreateObjectMapping: 0.061600 ms MarkObjects: 1.507900 ms  DeleteObjects: 0.026800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/RocketShoot.cs: 3fb2bd5041e1aa79ce3d0fd533b4eeb9 -> fff3f223fa0c7e144d7e7403694e6dcc
+  custom:scripting/monoscript/fileName/Shootable.cs: 880bb04ab3117f2fb564053ef5bdb2cf -> d2709582da58a92be19012656bee4d4e
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/GrapplingHook.cs: 325ffc35064c6322faf9dc340f09ec7c -> 1f7785b81827c884379ccdeee6918f30
+  custom:scripting/monoscript/fileName/GameManager.cs: f6182d712e34e20e3202214886862cdb -> 9933fbcc6190e2a9171c2ec8808a053e
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/horizontalMove2.cs: 03b10fc75badc7c6cdf0e316dd35ca54 -> e66dd3346ac1af9c65aea04b427c0c83
+  custom:scripting/monoscript/fileName/HookDetector.cs: 4912cf50ec7a38d4cfa2d7849c1e1afd -> 8b89c7f79039006eca9b2eabe7856be5
+  custom:scripting/monoscript/fileName/BoxMovement2.cs: bfafab7c3533d13b32812c074fb56b9d -> 60095d019e20da2d904d42a43ee559ef
+  custom:scripting/monoscript/fileName/GrapplingGun.cs: c6f63c2bc0100b9f6daba303de7e6391 -> 77176f16d51127b7327ebe60da444b1b
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/GrapplingRope.cs: 555f8125f2fce5660ff30a25a5cb66e4 -> a23c72b28e12b7dce88f9c5c210e42b0
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/DiagonalMove2.cs: 6ababa1b0dccfffd14d72e8107d33652 -> b01a4fa259b185d0c39e0c728ff6dc44
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/CameraRotation.cs: 630330bfb47f2aea353f1ecc533900d0 -> d4cc322b5298abd44086bcde05908e0f
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/GunRotation.cs: cf379a5e085c2f2f982341419a662165 -> fb24c0843de1e3ee5b209a11e120c169
+  custom:scripting/monoscript/fileName/Spring.cs: 6eccab55988c58a76a2e6296076586ab -> d117b58fbaf306386e0697937c2909d1
+  custom:scripting/monoscript/fileName/horizontalMove.cs: 712b7754d8efbf04ad2df8f72b65be3c -> 0c4b53b58f16a0204929e282ac1bb9f0
+  custom:scripting/monoscript/fileName/BoxMovement.cs: 373cba0184f1736f815694657b459622 -> 666042f885f3ccddcdc3c762d995595a
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/diagonalMove.cs: 8963a66d4408b8293449f0da3bd79ace -> fe3a4279a44e8b708d5d3718ab615587
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/verticalMove.cs: df044806629096aa10b51ec549b71282 -> 514b012bca634eb12bac95b325cfc927
+  custom:scripting/monoscript/fileName/Shoot.cs: 3268cb677615c566e3914308f81a755c -> 4326161f07303b177729a8bb5e487227
+  custom:scripting/monoscript/fileName/Line.cs: 8bf94875d96fb6b6a0d27b4a9998991d -> 
+  custom:scripting/monoscript/fileName/PlayerMovement.cs: 5c1499cfc43e291157e191fb54bb34f9 -> 42480eed24e61f9d7e7e895933644f96
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/RocketBehavior.cs: 6d8895043bf0bd137d17742f7b1ac109 -> 9f62e590aeec7838b0daf81fd24bf3aa
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.275 seconds
+Refreshing native plugins compatible for Editor in 1.72 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.535 seconds
+Domain Reload Profiling: 809ms
+	BeginReloadAssembly (95ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (136ms)
+		LoadAssemblies (177ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (8ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (535ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (285ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (60ms)
+			ProcessInitializeOnLoadAttributes (201ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3082 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3596.
+Memory consumption went from 117.3 MB to 117.3 MB.
+Total: 1.933900 ms (FindLiveObjects: 0.153800 ms CreateObjectMapping: 0.066100 ms MarkObjects: 1.679400 ms  DeleteObjects: 0.034000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/RocketShoot.cs: 3fb2bd5041e1aa79ce3d0fd533b4eeb9 -> fff3f223fa0c7e144d7e7403694e6dcc
+  custom:scripting/monoscript/fileName/Shootable.cs: 880bb04ab3117f2fb564053ef5bdb2cf -> d2709582da58a92be19012656bee4d4e
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/GrapplingHook.cs: 325ffc35064c6322faf9dc340f09ec7c -> 1f7785b81827c884379ccdeee6918f30
+  custom:scripting/monoscript/fileName/GameManager.cs: f6182d712e34e20e3202214886862cdb -> 9933fbcc6190e2a9171c2ec8808a053e
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/horizontalMove2.cs: 03b10fc75badc7c6cdf0e316dd35ca54 -> e66dd3346ac1af9c65aea04b427c0c83
+  custom:scripting/monoscript/fileName/HookDetector.cs: 4912cf50ec7a38d4cfa2d7849c1e1afd -> 8b89c7f79039006eca9b2eabe7856be5
+  custom:scripting/monoscript/fileName/BoxMovement2.cs: bfafab7c3533d13b32812c074fb56b9d -> 60095d019e20da2d904d42a43ee559ef
+  custom:scripting/monoscript/fileName/GrapplingGun.cs: c6f63c2bc0100b9f6daba303de7e6391 -> 77176f16d51127b7327ebe60da444b1b
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/GrapplingRope.cs: 555f8125f2fce5660ff30a25a5cb66e4 -> a23c72b28e12b7dce88f9c5c210e42b0
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/DiagonalMove2.cs: 6ababa1b0dccfffd14d72e8107d33652 -> b01a4fa259b185d0c39e0c728ff6dc44
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/CameraRotation.cs: 630330bfb47f2aea353f1ecc533900d0 -> d4cc322b5298abd44086bcde05908e0f
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/GunRotation.cs: cf379a5e085c2f2f982341419a662165 -> fb24c0843de1e3ee5b209a11e120c169
+  custom:scripting/monoscript/fileName/Spring.cs: 6eccab55988c58a76a2e6296076586ab -> d117b58fbaf306386e0697937c2909d1
+  custom:scripting/monoscript/fileName/horizontalMove.cs: 712b7754d8efbf04ad2df8f72b65be3c -> 0c4b53b58f16a0204929e282ac1bb9f0
+  custom:scripting/monoscript/fileName/BoxMovement.cs: 373cba0184f1736f815694657b459622 -> 666042f885f3ccddcdc3c762d995595a
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/diagonalMove.cs: 8963a66d4408b8293449f0da3bd79ace -> fe3a4279a44e8b708d5d3718ab615587
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/verticalMove.cs: df044806629096aa10b51ec549b71282 -> 514b012bca634eb12bac95b325cfc927
+  custom:scripting/monoscript/fileName/Shoot.cs: 3268cb677615c566e3914308f81a755c -> 4326161f07303b177729a8bb5e487227
+  custom:scripting/monoscript/fileName/Line.cs: 8bf94875d96fb6b6a0d27b4a9998991d -> 
+  custom:scripting/monoscript/fileName/PlayerMovement.cs: 5c1499cfc43e291157e191fb54bb34f9 -> 42480eed24e61f9d7e7e895933644f96
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/RocketBehavior.cs: 6d8895043bf0bd137d17742f7b1ac109 -> 9f62e590aeec7838b0daf81fd24bf3aa
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.277 seconds
+Refreshing native plugins compatible for Editor in 1.79 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.531 seconds
+Domain Reload Profiling: 807ms
+	BeginReloadAssembly (97ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (137ms)
+		LoadAssemblies (181ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (8ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (531ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (279ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (200ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3082 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3599.
+Memory consumption went from 117.3 MB to 117.3 MB.
+Total: 1.826000 ms (FindLiveObjects: 0.133000 ms CreateObjectMapping: 0.059700 ms MarkObjects: 1.563000 ms  DeleteObjects: 0.069600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/RocketShoot.cs: 3fb2bd5041e1aa79ce3d0fd533b4eeb9 -> fff3f223fa0c7e144d7e7403694e6dcc
+  custom:scripting/monoscript/fileName/Shootable.cs: 880bb04ab3117f2fb564053ef5bdb2cf -> d2709582da58a92be19012656bee4d4e
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/GrapplingHook.cs: 325ffc35064c6322faf9dc340f09ec7c -> 1f7785b81827c884379ccdeee6918f30
+  custom:scripting/monoscript/fileName/GameManager.cs: f6182d712e34e20e3202214886862cdb -> 9933fbcc6190e2a9171c2ec8808a053e
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/horizontalMove2.cs: 03b10fc75badc7c6cdf0e316dd35ca54 -> e66dd3346ac1af9c65aea04b427c0c83
+  custom:scripting/monoscript/fileName/HookDetector.cs: 4912cf50ec7a38d4cfa2d7849c1e1afd -> 8b89c7f79039006eca9b2eabe7856be5
+  custom:scripting/monoscript/fileName/BoxMovement2.cs: bfafab7c3533d13b32812c074fb56b9d -> 60095d019e20da2d904d42a43ee559ef
+  custom:scripting/monoscript/fileName/GrapplingGun.cs: c6f63c2bc0100b9f6daba303de7e6391 -> 77176f16d51127b7327ebe60da444b1b
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/GrapplingRope.cs: 555f8125f2fce5660ff30a25a5cb66e4 -> a23c72b28e12b7dce88f9c5c210e42b0
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/DiagonalMove2.cs: 6ababa1b0dccfffd14d72e8107d33652 -> b01a4fa259b185d0c39e0c728ff6dc44
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/CameraRotation.cs: 630330bfb47f2aea353f1ecc533900d0 -> d4cc322b5298abd44086bcde05908e0f
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/GunRotation.cs: cf379a5e085c2f2f982341419a662165 -> fb24c0843de1e3ee5b209a11e120c169
+  custom:scripting/monoscript/fileName/Spring.cs: 6eccab55988c58a76a2e6296076586ab -> d117b58fbaf306386e0697937c2909d1
+  custom:scripting/monoscript/fileName/horizontalMove.cs: 712b7754d8efbf04ad2df8f72b65be3c -> 0c4b53b58f16a0204929e282ac1bb9f0
+  custom:scripting/monoscript/fileName/BoxMovement.cs: 373cba0184f1736f815694657b459622 -> 666042f885f3ccddcdc3c762d995595a
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/diagonalMove.cs: 8963a66d4408b8293449f0da3bd79ace -> fe3a4279a44e8b708d5d3718ab615587
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/verticalMove.cs: df044806629096aa10b51ec549b71282 -> 514b012bca634eb12bac95b325cfc927
+  custom:scripting/monoscript/fileName/Shoot.cs: 3268cb677615c566e3914308f81a755c -> 4326161f07303b177729a8bb5e487227
+  custom:scripting/monoscript/fileName/Line.cs: 8bf94875d96fb6b6a0d27b4a9998991d -> 
+  custom:scripting/monoscript/fileName/PlayerMovement.cs: 5c1499cfc43e291157e191fb54bb34f9 -> 42480eed24e61f9d7e7e895933644f96
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/RocketBehavior.cs: 6d8895043bf0bd137d17742f7b1ac109 -> 9f62e590aeec7838b0daf81fd24bf3aa
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.735 seconds
+Refreshing native plugins compatible for Editor in 1.54 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  7.218 seconds
+Domain Reload Profiling: 8951ms
+	BeginReloadAssembly (99ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (1591ms)
+		LoadAssemblies (1629ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (7218ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (307ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (217ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3082 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3602.
+Memory consumption went from 117.3 MB to 117.3 MB.
+Total: 1.812100 ms (FindLiveObjects: 0.122300 ms CreateObjectMapping: 0.050900 ms MarkObjects: 1.611200 ms  DeleteObjects: 0.027000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/RocketShoot.cs: 3fb2bd5041e1aa79ce3d0fd533b4eeb9 -> fff3f223fa0c7e144d7e7403694e6dcc
+  custom:scripting/monoscript/fileName/Shootable.cs: 880bb04ab3117f2fb564053ef5bdb2cf -> d2709582da58a92be19012656bee4d4e
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/GrapplingHook.cs: 325ffc35064c6322faf9dc340f09ec7c -> 1f7785b81827c884379ccdeee6918f30
+  custom:scripting/monoscript/fileName/GameManager.cs: f6182d712e34e20e3202214886862cdb -> 9933fbcc6190e2a9171c2ec8808a053e
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/horizontalMove2.cs: 03b10fc75badc7c6cdf0e316dd35ca54 -> e66dd3346ac1af9c65aea04b427c0c83
+  custom:scripting/monoscript/fileName/HookDetector.cs: 4912cf50ec7a38d4cfa2d7849c1e1afd -> 8b89c7f79039006eca9b2eabe7856be5
+  custom:scripting/monoscript/fileName/BoxMovement2.cs: bfafab7c3533d13b32812c074fb56b9d -> 60095d019e20da2d904d42a43ee559ef
+  custom:scripting/monoscript/fileName/GrapplingGun.cs: c6f63c2bc0100b9f6daba303de7e6391 -> 77176f16d51127b7327ebe60da444b1b
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/GrapplingRope.cs: 555f8125f2fce5660ff30a25a5cb66e4 -> a23c72b28e12b7dce88f9c5c210e42b0
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/DiagonalMove2.cs: 6ababa1b0dccfffd14d72e8107d33652 -> b01a4fa259b185d0c39e0c728ff6dc44
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/CameraRotation.cs: 630330bfb47f2aea353f1ecc533900d0 -> d4cc322b5298abd44086bcde05908e0f
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/GunRotation.cs: cf379a5e085c2f2f982341419a662165 -> fb24c0843de1e3ee5b209a11e120c169
+  custom:scripting/monoscript/fileName/Spring.cs: 6eccab55988c58a76a2e6296076586ab -> d117b58fbaf306386e0697937c2909d1
+  custom:scripting/monoscript/fileName/horizontalMove.cs: 712b7754d8efbf04ad2df8f72b65be3c -> 0c4b53b58f16a0204929e282ac1bb9f0
+  custom:scripting/monoscript/fileName/BoxMovement.cs: 373cba0184f1736f815694657b459622 -> 666042f885f3ccddcdc3c762d995595a
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/diagonalMove.cs: 8963a66d4408b8293449f0da3bd79ace -> fe3a4279a44e8b708d5d3718ab615587
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/verticalMove.cs: df044806629096aa10b51ec549b71282 -> 514b012bca634eb12bac95b325cfc927
+  custom:scripting/monoscript/fileName/Shoot.cs: 3268cb677615c566e3914308f81a755c -> 4326161f07303b177729a8bb5e487227
+  custom:scripting/monoscript/fileName/Line.cs: 8bf94875d96fb6b6a0d27b4a9998991d -> 
+  custom:scripting/monoscript/fileName/PlayerMovement.cs: 5c1499cfc43e291157e191fb54bb34f9 -> 42480eed24e61f9d7e7e895933644f96
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/RocketBehavior.cs: 6d8895043bf0bd137d17742f7b1ac109 -> 9f62e590aeec7838b0daf81fd24bf3aa
