@@ -7,6 +7,9 @@ public class RocketBehavior : MonoBehaviour
     Rigidbody rb;
     Vector3 moveDir;
     float speed = 10f;
+
+    public float explosionForce = 50f;
+    public float explosionRadius = 5f;
     void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -20,8 +23,7 @@ public class RocketBehavior : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       rb.AddForce(moveDir);
-       
+        rb.AddForce(moveDir);
     }
 
     IEnumerator Despawn()
@@ -33,10 +35,38 @@ public class RocketBehavior : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Player"))
         {
-            
-            other.GetComponent<Rigidbody>().AddExplosionForce(100f, transform.position, 3.0f, 2.5f, ForceMode.Impulse);
+            Rigidbody playerRB = other.gameObject.GetComponent<Rigidbody>();
+            if (playerRB != null)
+            {
+                Vector3 forceDirection = (other.transform.position - transform.position).normalized;
+
+               
+
+                playerRB.AddForce(forceDirection * explosionForce, ForceMode.Impulse);
+            }
         }
+        Explode();
+        Destroy(gameObject);
     }
+
+    private void Explode()
+    {
+        Collider[] colliders = Physics.OverlapSphere(transform.position, explosionRadius);
+
+        foreach (Collider hit in colliders)
+        {
+            Rigidbody rb = hit.GetComponent<Rigidbody>();
+            if (rb != null)
+            {
+                Vector3 forceDirection = (hit.transform.position - transform.position).normalized;
+
+                rb.AddForce(forceDirection * explosionForce, ForceMode.Impulse);
+            }
+        }
+        Destroy(gameObject);
+    }
+
+
 }
