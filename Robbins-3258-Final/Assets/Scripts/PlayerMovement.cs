@@ -62,7 +62,7 @@ public class PlayerMovement : MonoBehaviour
 
         
         moveCharacter(movement);
-        //rb.AddForce(Physics.gravity * (gravityScale - 1) * rb.mass);
+        rb.AddForce(Physics.gravity * (gravityScale - 1) * rb.mass, ForceMode.Force);
         transform.Rotate(new Vector3(0, Camera.main.transform.rotation.y, 0));
     }
 
